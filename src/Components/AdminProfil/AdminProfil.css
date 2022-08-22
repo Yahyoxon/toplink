@@ -21,17 +21,22 @@
   width: 600px;
   outline: none;
   color: #699efa;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
+
+
 
 .main-form {
   position: relative;
-  width: 100% !important;
+  width: 100%;
 }
 
 .main-btn {
   position: absolute;
   top: 8.3%;
-  left: 88%;
+  left: 87%;
   background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
   border-radius: 16px;
   border: none;
@@ -113,6 +118,7 @@
   .drop-btn {
     display: block !important;
     border: none;
+    margin-left: -20px;
     background-color: transparent;
   }
 
@@ -135,20 +141,15 @@
 }
 
 @media (max-width: 420px) {
-  .container {
-    width: 300px;
-  }
+  .container{
+    width: 100%;
+    padding: 0px 15px;
+}
+
   .main-bottom div,
   .admin-page .main-right {
     margin-left: 0;
-  }
-
-
-  .main-bottom{
-      padding: 10px 0;
-      padding-bottom: 25px;
-      padding-left: -40px;
-      width: 350px;
+    margin-top: 20px;
   }
 
 }

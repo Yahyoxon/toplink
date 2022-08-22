@@ -18,8 +18,9 @@ import { GetBackgroundColor } from "../../services/query/get-background-color";
 import { GetLinkLists } from "../../services/query/get-link-lists";
 import { GetProfilesDetails } from "../../services/query/get-profile-details";
 import { get } from "lodash";
+import { Box, CircularProgress } from "@mui/material";
 
-export const MainBlok=styled.div`
+export const MainBlok = styled.div`
 
     margin-left: 25px;
 
@@ -33,8 +34,7 @@ export const MainBlok=styled.div`
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        color: ${props=>props.text.length>0 ?
-             props.text : '#01384D'} 
+        color: ${(props) => (props.text.length > 0 ? props.text : "#01384D")} 
     }
     div{
         display: flex;
@@ -56,7 +56,7 @@ export const MainBlok=styled.div`
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        color: ${props=>props.text.length>0 ? props.text : '#01384D'} 
+        color: ${(props) => (props.text.length > 0 ? props.text : "#01384D")} 
    
     }
     .main-subname{
@@ -64,7 +64,7 @@ export const MainBlok=styled.div`
         font-weight: 400;
         font-size: 17px;
         line-height: 20px;
-        color: ${props=>props.text.length>0 ? props.text : '#01384D'} ;
+        color: ${(props) => (props.text.length > 0 ? props.text : "#01384D")} ;
         height: 20px;
         width: 320px;
         text-overflow: ellipsis;
@@ -73,7 +73,8 @@ export const MainBlok=styled.div`
     }
     .main-map{
         display: flex;
-       border: 1px solid ${props=> props.text.length>0 ? props.text : '#512DA8'};
+       border: 1px solid ${(props) =>
+         props.text.length > 0 ? props.text : "#512DA8"};
        border-radius: 30px;
        padding: 8px 5px;
        padding-left: 15px;
@@ -123,7 +124,7 @@ export const MainBlok=styled.div`
 }
  
 .main-icon {
-    fill: ${props=>props.text.length>0 ? props.text : 'black'} ;
+    fill: ${(props) => (props.text.length > 0 ? props.text : "black")} ;
     width: 15px;
     height: 18px;
     margin-top: 4px;
@@ -152,9 +153,10 @@ export const MainBlok=styled.div`
     }
 }
 @media(max-width:420px){
-    .container{
-        width:300px;
-    }
+  .container {
+    width: 100%;
+    padding: 0px 15px;
+  }
     .main-name{
         font-size: 22px;
         line-height: 35px;
@@ -165,176 +167,190 @@ export const MainBlok=styled.div`
         width: 73%;
         margin: 10px auto;
 }
-`
-export const ResultPageList=styled.ul`
-    padding: 30px 0;
-    min-height: 66vh;   
-    .adminSocial-link{
-        display: flex;
-        align-items: center;
-        width: 612px;
-        height: 54px;
-        padding: 0px 16px;
-        background: ${props=> props.color1.length>0 ? props.color1 : "#84B0EC"};
-        border-radius: 12px;
-    }
-    .adminSocial-name {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 54px;
-        border-left: 0.1px solid rgb(229, 229, 229);
-        padding-left: 16px;
-        color:  ${props=> props.buttonTextColor.length>0 ? props.buttonTextColor : "white"};;
-        white-space: nowrap;
-        text-overflow: hidden;
-        height: 54px;
-    }
-    .adminSocial-item {
-        margin: 15px 0;
-    }
-    .adminSocial-boxes {
-        width: 32px;
-        height: 32px;
-        display: flex;
-        justify-content: center;
-        margin: 0px 15px;
-        margin-left: 0;
-        margin-right: 16px;
-        align-items: center;
-        
-        border-radius: 8px;
-    }
-    
-    .adminSocial-link-blue {
+`;
+export const ResultPageList = styled.ul`
+  padding: 30px 0;
+  min-height: 66vh;
+  .adminSocial-link {
+    display: flex;
+    align-items: center;
+    width: 612px;
+    height: 54px;
+    padding: 0px 16px;
+    background: ${(props) =>
+      props.color1.length > 0 ? props.color1 : "#84B0EC"};
+    border-radius: 12px;
+  }
+  .adminSocial-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 54px;
+    border-left: 0.1px solid rgb(229, 229, 229);
+    padding-left: 16px;
+    color: ${(props) =>
+      props.buttonTextColor.length > 0 ? props.buttonTextColor : "white"};
+    white-space: nowrap;
+    text-overflow: hidden;
+    height: 54px;
+  }
+  .adminSocial-item {
+    margin: 15px 0;
+  }
+  .adminSocial-boxes {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 15px;
+    margin-left: 0;
+    margin-right: 16px;
+    align-items: center;
+
+    border-radius: 8px;
+  }
+
+  .adminSocial-link-blue {
     background: rgba(255, 255, 255, 0.15);
     box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.15);
-}
-.adminSocial-link-dark{
-    background: #2253EF;
+  }
+  .adminSocial-link-dark {
+    background: #2253ef;
     box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.15);
-}
+  }
 
-.adminSocial-link-dusk, .adminSocial-link-pastel, .adminSocial-link-sunset {
+  .adminSocial-link-dusk,
+  .adminSocial-link-pastel,
+  .adminSocial-link-sunset {
     background: rgba(0, 0, 0, 0.15);
     box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.15);
-}
-.adminSocial-link-purple {
+  }
+  .adminSocial-link-purple {
     background: transparent;
     box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.15);
-    border: 1px solid #FFFFFF;
-}
-.adminSocial-link-warm {
+    border: 1px solid #ffffff;
+  }
+  .adminSocial-link-warm {
     background: transparent;
     box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.15);
     border: 1px solid transparent;
-}
-.adminSocial-link-neon {
+  }
+  .adminSocial-link-neon {
     background: transparent;
-    box-shadow: 0.5px 0.5px 4px #FFFF54;
+    box-shadow: 0.5px 0.5px 4px #ffff54;
     border: 2px solid #ffff00;
-}
-.adminSocial-link-luxury {
+  }
+  .adminSocial-link-luxury {
     background: transparent;
-    border: 2px solid #C7AD5C;
-}
-.adminSocial-link-stitched {
+    border: 2px solid #c7ad5c;
+  }
+  .adminSocial-link-stitched {
     background: transparent;
     border: 2px dashed rgba(0, 0, 0, 0.2);
-}
-.adminSocial-link-friendly {
+  }
+  .adminSocial-link-friendly {
     background: white;
     color: black;
     box-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.15);
-}
+  }
 
- .adminSocial-name-blue,.adminSocial-name-dark,.adminSocial-name-dusk,.adminSocial-name-purple
- ,.adminSocial-name-warm, .adminSocial-name-neon, .adminSocial-name-pastel, .adminSocial-name-luxury  
- {
-    color:white;
- }
- .adminSocial-name-stitched {
+  .adminSocial-name-blue,
+  .adminSocial-name-dark,
+  .adminSocial-name-dusk,
+  .adminSocial-name-purple,
+  .adminSocial-name-warm,
+  .adminSocial-name-neon,
+  .adminSocial-name-pastel,
+  .adminSocial-name-luxury {
+    color: white;
+  }
+  .adminSocial-name-stitched {
     border-left: none;
-    color:white;
-}
+    color: white;
+  }
 
-.adminSocial-name-sunset {
-    color:white;
-    border-left: 0.5px solid #ABBAC3;
-}
-.adminSocial-name-friendly {
+  .adminSocial-name-sunset {
+    color: white;
+    border-left: 0.5px solid #abbac3;
+  }
+  .adminSocial-name-friendly {
     color: black;
-    border-left: 0.5px solid #ABBAC3;
-}
- 
-.adminSocial-item-stitched {
+    border-left: 0.5px solid #abbac3;
+  }
+
+  .adminSocial-item-stitched {
     padding: 2.5px;
     border-radius: 12px;
-    background: #2253EF;
-}
+    background: #2253ef;
+  }
 
-.adminSocial-boxes-stitched,.adminSocial-boxes-sunset, .adminSocial-boxes-friendly {
+  .adminSocial-boxes-stitched,
+  .adminSocial-boxes-sunset,
+  .adminSocial-boxes-friendly {
     background-color: transparent;
-}
-.fa-brands{
-    color: ${props=> props.buttonTextColor.length>0 ? props.buttonTextColor : "white"};;
+  }
+  .fa-brands {
+    color: ${(props) =>
+      props.buttonTextColor.length > 0 ? props.buttonTextColor : "white"};
     font-size: 26px;
     font-weight: 100;
-    width:26px;
-    height:26px;
-    
-}
+    width: 26px;
+    height: 26px;
+  }
 
-.map-svg-blue,.map-svg-dark,.map-svg-dusk,.map-svg-purple
-,.map-svg-warm,  .map-svg-pastel, .map-svg-stitched, .map-svg-sunset{
-    color:white;
-}
-.map-svg-neon{
+  .map-svg-blue,
+  .map-svg-dark,
+  .map-svg-dusk,
+  .map-svg-purple,
+  .map-svg-warm,
+  .map-svg-pastel,
+  .map-svg-stitched,
+  .map-svg-sunset {
+    color: white;
+  }
+  .map-svg-neon {
     color: yellow;
-}
-.map-svg-luxury{
-    color:#C7AD5C;
-}
-.map-svg-friendly{
-    color:black;
-}
-@media(max-width:920px){
-    .container{
-        width:800px;
-    }
-    .adminSocial-link{
-        width:405px;
-    }
-
-}
-@media(max-width:420px){
-    .container{
-        width:300px
+  }
+  .map-svg-luxury {
+    color: #c7ad5c;
+  }
+  .map-svg-friendly {
+    color: black;
+  }
+  @media (max-width: 920px) {
+    .container {
+      width: 800px;
     }
     .adminSocial-link {
-        width: 294px;
+      width: 405px;
     }
-    
-    
-}
+  }
+  @media (max-width: 420px) {
+    .container {
+      width: 100%;
+      padding: 0px 15px;
+    }
+    .adminSocial-link {
+      width: 294px;
+    }
+  }
 
-.social-icon{
+  .social-icon {
     width: 38px !important;
     height: 38px !important;
     background: transparent;
     color: white;
     fill: white;
-}
-.social-svg{
-    width:76% !important;
+  }
+  .social-svg {
+    width: 76% !important;
     height: 76% !important;
     top: 4px !important;
     left: 4px !important;
     fill: white;
-    background:white;
-}
-
-`
+    background: white;
+  }
+`;
 
 const ResultPage = (props) => {
   const [theme, setTheme] = useContext(Context);
@@ -392,122 +408,142 @@ const ResultPage = (props) => {
   /************************  profile detail ********************* */
 
   const { username } = useParams();
-  
- 
 
   /**********************   link-list       *************************** */
 
   const [linkId, setLinkId] = useState("");
   const userId = localStorage.getItem("id");
   const token = localStorage.getItem("token");
-  const { data, isSuccess, isFetching } = 
-  GetProfilesDetails(username);
+  const { data, isSuccess, isFetching } = GetProfilesDetails(username);
   const profileLinks = GetLinkLists(username);
 
-/****************    theme api       ********************************** */
+  /****************    theme api       ********************************** */
 
-const themeColors = GetBackgroundColor(username);
+  const themeColors = GetBackgroundColor(username);
 
-const [linkViews, setLinkViews] = useState([]);
+  const [linkViews, setLinkViews] = useState([]);
 
-useEffect(() => {
+  useEffect(() => {
     fetch(`https://api.toplink.uz/api/v1/accounts/link-views/${linkId}/`, {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
-      }
+      },
     })
       .then((res) => res.json())
       .then((views) => {
-        setLinkViews([views])
+        setLinkViews([views]);
       });
   }, [linkId]);
-  console.log(linkViews);
 
-
-/******************   html code          *******************  */
+  /******************   html code          *******************  */
   return (
-    <section className={`resultpage adminProfile-page-${themeColors?.data?.background_color}`}>
-      <div className="container">
-        <div className="resultpage-main">
-          <div className="resultpage-top">
-            <img
-             src={`https://api.toplink.uz${get(data, "[0].profile_img")}`}
-             alt={get(data, "[0].username")}
-              className="resultpage-avatar"
-            />
-            <MainBlok {...{ text }}>
-              <h2 className={`main-name main-name-${font} main-name-${themeColors?.data?.background_color}`}>
-              @{get(data, "[0].username")}
-              </h2>
-              {get(data, "[0].location")>0 && (
-
-              <div
-                className={`main-map main-map-${themeColors?.data?.background_color}`}
-              >
-
-                <MapsIcon />
-                <p
-                  className={`main-text main-text-${font} 
-                          main-text-${themeColors?.data?.background_color}`}>
-                  {get(data, "[0].location")}
-                </p>
-              </div>
-               )} 
-              <p
-                className={`main-subname main-subname-${font} main-subname-${themeColors?.data?.background_color}`}
-              >
-                {get(data, "[0].full_name")}
-              </p>
-            </MainBlok>
-          </div>
-          <ResultPageList {...{ color1 }} {...{ buttonTextColor }}>
-            {profileLinks?.data?.map((event, i) => (
-              <li key={i} 
-                className={`resultpage-item
-         adminSocial-item-${themeColors?.data?.background_color}`}
-              >
-                <Animated
-                  animationIn="lightSpeedIn"
-                  animationOut={animation}
-                  animationInDuration={1000}
-                  animationOutDuration={1000}
-                  isVisible={true}
-                >
-                  
-           
-                  <a   
-                  href={`${event.icon_url}`} 
-                    onClick={() => setLinkId(event.id)}
-                    className={`adminSocial-link resultpage-link 
-                    adminSocial-link-${themeColors?.data?.background_color}`}
-                       >
-                          <div className={`adminSocial-boxes
-                    adminSocial-boxes-${themeColors?.data?.background_color}`}>
-                            <div className={`adminSocial-box1 
-                            adminSocial-box1-${themeColors?.data?.background_color}`}>
-                           
-                        <SocialIcon url={`${event.icon_url}`} />
-                        </div>
-                            </div>
+    <>
+      {!themeColors?.isFetching ? (
+        <section
+          className={`resultpage adminProfile-page-${themeColors?.data?.background_color}`}
+        >
+          <div className="container">
+            <div className="resultpage-main">
+              <div className="resultpage-top">
+                <img
+                  src={`https://api.toplink.uz${get(data, "[0].profile_img")}`}
+                  alt={get(data, "[0].username")}
+                  className="resultpage-avatar"
+                />
+                <MainBlok {...{ text }}>
+                  <h2
+                    className={`main-name main-name-${font} main-name-${themeColors?.data?.background_color}`}
+                  >
+                    @{get(data, "[0].username")}
+                  </h2>
+                  {get(data, "[0].location") > 0 && (
                     <div
-                      className={`adminSocial-name adminSocial-name-${font} adminSocial-name-${themeColors?.data?.background_color}`}
+                      className={`main-map main-map-${themeColors?.data?.background_color}`}
                     >
-                      {event.icon_name}
+                      <MapsIcon />
+                      <p
+                        className={`main-text main-text-${font} 
+                          main-text-${themeColors?.data?.background_color}`}
+                      >
+                        {get(data, "[0].location")}
+                      </p>
                     </div>
-                  </a>
-                </Animated>
-              </li>
-            ))}
-          </ResultPageList>
-          <div className="resultpage-footer">
-            <a href="https://toplink.uz/" className="resultpage-link">
-              <img src={resultpageLogo} alt="" className="resultpage-logo" />
-            </a>
+                  )}
+                  <p
+                    className={`main-subname main-subname-${font} main-subname-${themeColors?.data?.background_color}`}
+                  >
+                    {get(data, "[0].full_name")}
+                  </p>
+                </MainBlok>
+              </div>
+              <ResultPageList {...{ color1 }} {...{ buttonTextColor }}>
+                {profileLinks?.data?.map((event, i) => (
+                  <li
+                    key={i}
+                    className={`resultpage-item
+         adminSocial-item-${themeColors?.data?.background_color}`}
+                  >
+                    <Animated
+                      animationIn="lightSpeedIn"
+                      animationOut={animation}
+                      animationInDuration={1000}
+                      animationOutDuration={1000}
+                      isVisible={true}
+                    >
+                      <a
+                        href={`${event.icon_url}`}
+                        onClick={() => setLinkId(event.id)}
+                        target="_blank"
+                        className={`adminSocial-link resultpage-link 
+                    adminSocial-link-${themeColors?.data?.background_color}`}
+                      >
+                        <div
+                          className={`adminSocial-boxes
+                    adminSocial-boxes-${themeColors?.data?.background_color}`}
+                        >
+                          <div
+                            className={`adminSocial-box1 
+                            adminSocial-box1-${themeColors?.data?.background_color}`}
+                          >
+                            <SocialIcon url={`${event.icon_url}`} />
+                          </div>
+                        </div>
+                        <div
+                          className={`adminSocial-name adminSocial-name-${font} adminSocial-name-${themeColors?.data?.background_color}`}
+                        >
+                          {event.icon_name}
+                        </div>
+                      </a>
+                    </Animated>
+                  </li>
+                ))}
+              </ResultPageList>
+              <div className="resultpage-footer">
+                <a href="https://toplink.uz/" className="resultpage-link">
+                  <img
+                    src={resultpageLogo}
+                    alt=""
+                    className="resultpage-logo"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
+      ) : (
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            height: "100vh",
+          }}
+        >
+          <CircularProgress />
+        </Box>
+      )}
+    </>
   );
 };
 

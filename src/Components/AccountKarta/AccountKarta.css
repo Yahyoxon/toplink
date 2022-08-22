@@ -159,8 +159,9 @@ border-radius: 8px;
 
 @media(max-width:420px) {
     .container{
-        width: 300px;
-    }
+        width: 100%;
+        padding: 0 15px;
+     }
     .accountKarta-first {
         width: 286px;}
         .accountKarta{

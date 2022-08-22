@@ -42,7 +42,7 @@ const AdminProfil = () => {
             id="some-hijacked-input"
             className={`main-input main-input-${font} main-input-${themeColors?.data?.background_color}`}
             type="text"
-            value={`https://toplink.uz/${get(data, "[0].username")}`}
+            value={`https://toplink.uz/${get(data,  "[0].username ")}`}
           />
           <button
             type="button"
@@ -115,7 +115,7 @@ const AdminProfil = () => {
               className={`adminSocial-item
          adminSocial-item-${themeColors?.data?.background_color}`}
             >
-              <a
+              <a target="_blank"
                 href={`${link.icon_url}`}
                 className={`adminSocial-link adminSocial-link-${themeColors?.data?.background_color}`}
               >

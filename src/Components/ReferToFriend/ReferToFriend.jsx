@@ -41,7 +41,7 @@ const ReferToFriend=()=>{
                                 <div className="refer-left">
                                 <img src={referAvatar} alt="" className="refer-avatar" />
                                 <p className="refer-name">
-                                Khasanboytursunov1998@gmail.com
+                                tursunov1998@gmail.com
                                 </p>
                                 </div>
                                 <div className="refer-right">
@@ -57,7 +57,7 @@ const ReferToFriend=()=>{
                                 <div className="refer-left">
                                 <img src={referAvatar} alt="" className="refer-avatar" />
                                 <p className="refer-name">
-                                Khasanboytursunov1998@gmail.com
+                                tursunov1998@gmail.com
                                 </p>
                                 </div>
                                 <div className="refer-right">

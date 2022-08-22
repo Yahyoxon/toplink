@@ -1,10 +1,11 @@
 .userprofil {
-  margin: 30px 100px 0 100px;
+  margin: 50px 100px 0 100px;
   min-height: 100vh;
 }
 
 .userprofil__imgs {
   text-align: center;
+  margin-top: 40px;
 }
 
 .userprofil__name {
@@ -19,6 +20,7 @@
 .userprofil__form {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .userprofil__list {
@@ -126,9 +128,7 @@
   .container {
     width: 500px;
   }
-  .userprofil__input {
-    width: 450px;
-  }
+  
   .userprofil__button {
     margin-left: 220px;
   }
@@ -137,9 +137,6 @@
 @media (max-width: 520px) {
   .container {
     width: 400px;
-  }
-  .userprofil__input {
-    width: 380px;
   }
   .userprofil__button {
     margin-left: 60px;
@@ -154,15 +151,17 @@
 }
 
 @media (max-width: 420px) {
+
   .container {
     width: 330px;
-  }
-  .userprofil__input {
-    width: 320px;
   }
 
   .userprofil__name {
     font-size: 20px;
+  }
+
+  .userprofil__input{
+    width: 330px;
   }
 
   .userprofil__link {
@@ -435,7 +434,8 @@
 
 @media (max-width: 420px) {
   .container {
-    width: 330px;
+    width: 100%;
+    padding: 0px 15px;
   }
   .userimage__name {
     font-size: 20px;
@@ -614,7 +614,8 @@
 
 @media (max-width: 420px) {
   .container {
-    width: 300px;
+    width: 100%;
+    padding: 0 15px;
   }
   .userform__input,
   .userform__inputs {

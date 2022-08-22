@@ -1,5 +1,5 @@
 import "./Profile.css";
-import profileImg from "../../Assets/Img/iPhone.png"
+import profileImg from "../../Assets/Img/mmmIphone1.svg"
 import Fade from 'react-reveal/Fade';
 import iphone from '../../Assets/Img/iPhone 13 Pro.png'
 

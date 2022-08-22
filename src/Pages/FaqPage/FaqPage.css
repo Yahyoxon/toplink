@@ -35,7 +35,9 @@
 
 .faq_list__item .faq_header {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 26px;
+    line-height: 36px;
+    height: 100%;
     margin: 0;
 
 }
@@ -214,49 +216,59 @@ color: #6F6C90;
         width: 400px;
     }
     .faq_text{
-        font-size: 11px;
-        line-height: 18px;
+        font-size: 15px;
+        line-height: 21px;
+        height: 100%;
     }
     
 }
 @media(max-width:420px) {
-    .container{
-        width: 300px;
-    }
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+      }
    
     .faq_list__item .faq_header {
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 21px;
+        line-height: 28px;
         text-overflow: ellipsis;
         white-space: wrap !important;
         overflow: hidden;
         width: 90%;
-        max-height: 36.5px;
+       height: 100%;
     }
     .faq_list__item__answer_wrapper .faq_text {
         margin: 0px 0px 0px 9px;
-  
+        height: 100%;
         width: 77%;
         max-height: 104px;
+        word-break: break-word;
     }
 
     .faq_list__item:nth-child(1) .faq_header{
-        /* background-color: violet; */
+        word-break: break-word;
         width: 75%;
+        height: 100%;
     }
     
     .faq_list__item:nth-child(2) .faq_header{
-        /* background-color: violet; */
         width: 75%;
-        height: 20px;
+        height: 100%;
+        word-break: break-word;
+    }
+    .faq_list__item:nth-child(3) .faq_header{
+        width: 75%;
+        height: 100%;
+        word-break: break-word;
+
     }
     .faq_list__item:nth-child(4) .faq_header{
    
         width: 82.4%;
         max-height: 120px;
-        height: 57px;
+        height: 100%;
         white-space: normal;
         word-break: break-word;
     }

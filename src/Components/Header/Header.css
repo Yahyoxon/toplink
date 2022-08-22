@@ -68,7 +68,7 @@
 }
 
 .header {
-  padding: 110px 0;
+  /* padding: 110px 0; */
   position: relative;
   padding-bottom: 70px;
   background: rgba(87, 93, 251, 0.05);

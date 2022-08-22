@@ -1,5 +1,6 @@
 .edit-section {
   display: flex;
+  width: 100%;
 }
 
 .edit-main {
@@ -19,7 +20,8 @@
 .edit-box {
   display: flex;
   flex-direction: column;
-  margin: 6px 0;
+  margin: 12px 0;
+  width: 100%;
 }
 
 .edit-form {
@@ -48,6 +50,19 @@
 
 .edit-box:nth-child(1) {
   margin-top: 0;
+}
+
+.edit-right{
+  margin-top: 25px;
+  width: 100%;
+}
+
+.edit__left{
+  margin-right: 30px;
+}
+
+.eidt-left{
+  width: 100%;
 }
 
 .edit-avatar {
@@ -1156,6 +1171,7 @@ li {
   }
   .MuiAccordionDetails-root:nth-child(1) {
     padding-left: 0 !important;
+    width: 100%;
   }
 }
 
@@ -1187,8 +1203,18 @@ li {
   .container {
     width: 300px;
   }
+  .edit__left{
+    margin-right: 0;
+  }
+
+  .edit-btn{
+    width: 100%;
+    margin-top: 18px;
+    font-size: 16px;
+  }
+
   .edit-main .edit-footer .MuiTypography-body1 {
-    width: 243px;
+    width: 100%;
   }
   .edit-footer  .pro-box p{
     width: 258px !important;
@@ -1197,10 +1223,10 @@ li {
   }
   .pro-btn{
     background: #6bc818;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 0.9em;
     min-height: 32px;
-    padding: 0px 28px;
+    padding: 0px 24px;
     border: 0;
     border-radius: 6.25rem;
     box-sizing: border-box;
@@ -1211,6 +1237,10 @@ li {
   .pro-box{
     margin-top: 0;
   }
+.social-name{
+  width: 100% !important;
+}
+
 }
 
 .social-icon {
@@ -1248,6 +1278,11 @@ li {
 
 .edit-footer .MuiPaper-root .MuiTabs-root {
   margin: 0;
+  width: 100%;
+}
+
+.edit-add{
+  height: 35px;
 }
 
 @media(max-width:1460px){

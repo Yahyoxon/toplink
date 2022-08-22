@@ -1,6 +1,6 @@
 import "./Dashboard.css";
 import exitPic from "../../Assets/Img/exit.png";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import ExitModal from "../ExitModal/ExitModal";
 import trueIcon from "../../Assets/Img/checkmark.png";
 import Modal101 from "react-modal";
@@ -71,6 +71,7 @@ const Dashboard = ({ profileLists, username }) => {
   let subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [value, setValue] = React.useState(0);
+  const { pathname } = useLocation();
   const [premiumModalOpen, setPremiumModalOpen] = useState(false);
   const [premiumModalOpen22, setPremiumModalOpen22] = useState(false);
   const [show, setShow] = useState(false);
@@ -86,14 +87,6 @@ const Dashboard = ({ profileLists, username }) => {
   function closeModal() {
     setIsOpen(false);
   }
-
-  const handleAddClass = (evt) => {
-    const links = document.querySelectorAll(".dashboard__link-active");
-    links.forEach((link) => {
-      link.classList.remove("dashboard__link-active");
-    });
-    evt.currentTarget.classList.add("dashboard__link-active");
-  };
 
   function openPremiumModal() {
     setPremiumModalOpen(!premiumModalOpen);
@@ -130,6 +123,13 @@ const Dashboard = ({ profileLists, username }) => {
     history("/loginpage");
     window.location.reload();
   };
+
+  const activeLinkStyle = {
+    background: "#f5f6fa",
+    borderRadius: "4px",
+    color: " #512da8",
+  };
+
   return (
     <section className="dashboard" style={{ background: "#fff" }}>
       <div className="dashboard-top">
@@ -197,42 +197,38 @@ const Dashboard = ({ profileLists, username }) => {
         )}
       </div>
       <ul className="dashboard-list">
-        <li className="dashboard-item">
-          <Link
-            className="dashboard-link"
-            to={`/${username}`}
-            onClick={handleAddClass}
-          >
+        <li
+          className="dashboard-item"
+          style={pathname === `/${username}` ? activeLinkStyle : {}}
+        >
+          <Link className="dashboard-link" to={`/${username}`}>
             <Profile />
             Profil
           </Link>
         </li>
-        <li className="dashboard-item">
-          <Link
-            onClick={handleAddClass}
-            className="dashboard-link"
-            to={`${username}/analytic`}
-          >
+        <li
+          className="dashboard-item"
+          style={pathname?.includes("analytic") ? activeLinkStyle : {}}
+        >
+          <Link className="dashboard-link" to={`${username}/analytic`}>
             <Analitika />
             Analitika
           </Link>
         </li>
-        <li className="dashboard-item">
-          <Link
-            onClick={handleAddClass}
-            className="dashboard-link"
-            to={`${username}/refertofriend`}
-          >
+        <li
+          className="dashboard-item"
+          style={pathname?.includes("refertofriend") ? activeLinkStyle : {}}
+        >
+          <Link className="dashboard-link" to={`${username}/refertofriend`}>
             <Murojaat />
             Do’stlarga murojat
           </Link>
         </li>
-        <li className="dashboard-item">
-          <Link
-            onClick={handleAddClass}
-            className="dashboard-link"
-            to={`${username}/account`}
-          >
+        <li
+          className="dashboard-item"
+          style={pathname?.includes("account") ? activeLinkStyle : {}}
+        >
+          <Link className="dashboard-link" to={`${username}/account`}>
             <Account />
             Akkount
           </Link>

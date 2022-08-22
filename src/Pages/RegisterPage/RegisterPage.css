@@ -27,6 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -100px;
   }
 }
 
@@ -128,14 +129,10 @@
   .forget-page .register-title {
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-
+    font-size: 29px;
+    line-height: 26px;
     letter-spacing: -0.011em;
-
     background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   .forget-page .register-text {

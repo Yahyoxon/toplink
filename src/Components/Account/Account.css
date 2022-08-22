@@ -63,6 +63,7 @@
 .account-footer {
   border: 1px solid rgba(0, 0, 0, 0.45);
   border-radius: 16px;
+
 }
 
 .account-headers {
@@ -82,12 +83,14 @@
 .account-span {
   display: flex;
   flex-direction: column;
-  margin: 15px 0;
+  margin: 10px 0;
+  width: 100%;
+ 
 }
 
-.account-form {
+/* .account-form {
   padding: 15px 30px;
-}
+} */
 
 .account-span label {
   font-family: "Clarika Geometric";
@@ -118,7 +121,7 @@
   /* Gray 1 */
   padding: 8px 25px;
   color: #01384d;
-  width: 635px;
+  width: 100%;
 }
 
 .account-span .form-control {
@@ -131,8 +134,7 @@
   line-height: 19px;
 
   letter-spacing: -0.011em;
-
-  width: 635px;
+  width: 100%;
   padding-left: 45px !important;
   padding: 8px 25px;
   color: #01384d;
@@ -145,7 +147,7 @@
   line-height: 24px;
   width: 105px;
   height: 40px;
-  /* White / Main */
+  margin: 15px 0 10px;
   margin-left: auto;
   border: none;
   color: #ffffff;
@@ -161,9 +163,13 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  padding: 15px;
+  
 }
 
 .account-first:nth-child(2) {
   height: 300px;
   margin-top: 25px;
 }
+
+

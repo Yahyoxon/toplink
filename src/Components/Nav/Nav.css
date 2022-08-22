@@ -6,10 +6,10 @@
 }
 .nav {
   padding: 18px 0;
-  background: rgba(87, 93, 251, 0.05);
-  position: absolute;
+  background: rgb(232 233 241);
+  /* position: absolute; */
   width: 100%;
-  /* z-index: 1; */
+  /* z-index: 10000; */
 }
 
 .nav-link {
@@ -91,8 +91,6 @@
 } */
 
 .close-menus{
-  /* background-color: transparent; */
-  margin-left: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,8 +117,8 @@
 }
 
 .nav-items .nav-link {
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 17px;
   line-height: 16px;
   color: #182f43;
   padding: 8px 5px;
@@ -129,11 +127,12 @@
 
 
 @media (max-width: 420px) {
-  .container {
-    width: 300px;
-  }
+  .container{
+    width: 100%;
+    padding: 0px 15px;
+}
   .ReactModal__Content {
     width: 80%;
-    padding: 38px !important;
+    padding: 12px !important;
   }
 }

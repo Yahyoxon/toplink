@@ -6,8 +6,12 @@
 }
 
 .admin-header {
-  padding: 15px 0;
+  padding: 15px;
   border-bottom: 0.5px solid #abbac3;
+}
+
+.admin__header-active{
+  color: red;
 }
 
 .admin-header-item {

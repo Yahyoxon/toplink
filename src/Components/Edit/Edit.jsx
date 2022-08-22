@@ -33,8 +33,6 @@ import { GetLinkLists } from "../../services/query/get-link-lists";
 import { CircularProgress } from "@mui/material";
 import { useUpdateLink } from "../../services/mutations/change-link";
 import { useFieldArray, useForm } from "react-hook-form";
-// import * as yup from "yup";
-// import { yupResolver } from "@hookform/resolvers/yup";
 import { useLinkDelete } from "../../services/mutations/delete-link";
 import { green } from "@mui/material/colors";
 
@@ -241,7 +239,7 @@ const Edit = () => {
                   <Typography>
                     <li key={i} className="social-item">
                       <span className="social-link">
-                        <SocialIcon
+                        <SocialIcon target="_blank"
                           datasetId={item.id}
                           style={{ fontSize: "10px" }}
                           url={`${item.icon_url}`}

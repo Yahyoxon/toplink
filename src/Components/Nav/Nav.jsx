@@ -4,7 +4,7 @@ import menuIcon from "../../Assets/Img/menu.png";
 import { useState } from "react";
 import Modal from "react-modal";
 import { Link } from "react-router-dom";
-
+import DehazeIcon from '@mui/icons-material/Dehaze';
 const customStyles = {
   content: {
     top: "50%",
@@ -62,7 +62,9 @@ const Nav = () => {
           </li>
         </ul>
         <button className="menu-btn" onClick={openModal}>
-          <img src={menuIcon} alt="" className="menu-icon" />
+          {/* <img src={menuIcon} alt="" className="menu-icon" /> */}
+          <DehazeIcon  style={{color: "#5A33AE", fontSize: "32px", fontWeight: "bolder"}}
+           />
         </button>
       </div>
 

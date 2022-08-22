@@ -55,7 +55,8 @@
 
 .profileImgs{
     display: none;
-    animation-name: workAn1;
+    /* height: 180px; */
+    /* animation-name: workAn1; */
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;

@@ -30,11 +30,10 @@ import { AuthProvider } from "./Context/AuthContext";
 import UserProfil from "./Components/UserProfil/UserProfil";
 import Layout from "./Layout";
 import AccountKarta from "./Components/AccountKarta/AccountKarta";
-import { createBrowserHistory } from "history";
+import { HashRouter } from "react-router-dom";
 
 function App({ bg }) {
   const token = localStorage.getItem("token");
-  const history = createBrowserHistory();
 
   return (
     <AuthProvider>
@@ -90,7 +89,7 @@ function App({ bg }) {
             </Layout>
           </div>
         ) : (
-          <Routes history={history} basename="/">
+          <Routes history={HashRouter} basename="/">
             <Route path="/" element={<HomePage />} basename />
             <Route path="/workpage" element={<WorkPage />} />
             <Route path="/featurepage" element={<FeaturePage />} />
@@ -111,7 +110,7 @@ function App({ bg }) {
             <Route path="/:username" element={<ResultPage />} />
             <Route path="/passwordcompare" element={<ComparePage />} />
 
-            <Route element={<p>404 error page</p>} />
+            <Route path="*" element={<p>404 error page</p>} />
           </Routes>
         )}
       </div>

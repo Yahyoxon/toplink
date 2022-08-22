@@ -1,8 +1,7 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./AdminHeader.css";
 import adminLogo from "../../../src/Assets/Img/LogoImg.png";
-import adminMenu from "../../../src/Assets/Img/menu.png";
-import { useContext, useState } from "react";
+import { useState } from "react";
 import Modal from "react-modal";
 import Modal101 from "react-modal";
 import exitPic from "../../Assets/Img/exit.png";
@@ -26,12 +25,12 @@ import ExitModal from "../ExitModal/ExitModal";
 import Profile from "../../Assets/SVG/Profile";
 import Analitika from "../../Assets/SVG/Analitika";
 import Murojaat from "../../Assets/SVG/Murojaat";
-import Accounts from "../../Assets/SVG/Accounts";
 import Account from "../../Assets/SVG/Account";
 import { get } from "lodash";
 import close from "../../Assets/Img/close.png";
 import arrow from "../../Assets/Img/arow.png";
-
+import CustomizedMenus from "./mobile-burger";
+const paths = ["edit", "settings", "premium"];
 const customStyles = {
   content: {
     top: "50%",
@@ -75,6 +74,8 @@ function a11yProps(index) {
 }
 
 const AdminHeader = ({ username, profileLists }) => {
+  const { pathname } = useLocation();
+  const activeLink = pathname.includes("");
   const handleAddClass = (evt) => {
     const links = document.querySelectorAll(".dashboard__link-active");
     links.forEach((link) => {
@@ -91,7 +92,6 @@ const AdminHeader = ({ username, profileLists }) => {
   }
 
   function afterOpenModal() {
-    // references are now sync'd and can be accessed.
     subtitle.style.color = "#f00";
   }
 
@@ -114,7 +114,6 @@ const AdminHeader = ({ username, profileLists }) => {
 
   const [premiumModalOpen, setPremiumModalOpen] = useState(false);
 
-  // eslint-disable-next-line no-unused-vars
   function openPremiumModal() {
     setPremiumModalOpen(!premiumModalOpen);
   }
@@ -159,28 +158,51 @@ const AdminHeader = ({ username, profileLists }) => {
         <Link to={`${username}`} className="admin-logo">
           <img src={adminLogo} alt="" className="admin-brand" />
         </Link>
-
         <ul className="admin-header-list">
-          <li className="admin-header-item">
+          <li
+            className="admin-header-item"
+            style={{
+              borderBottom:
+                pathname === `/${username}` ? "2px solid #512da8" : "none",
+            }}
+          >
             <Link to={`${username}`} className="admin-header-link">
               Ko’rib chiqish
             </Link>
           </li>
-          <li className="admin-header-item">
+          <li
+            className="admin-header-item"
+            style={{
+              borderBottom: pathname.includes("edit")
+                ? "2px solid #512da8"
+                : "none",
+            }}
+          >
             <Link to={`${username}/edit`} className="admin-header-link">
               Tahrirlash
             </Link>
           </li>
-          <li className="admin-header-item">
+          <li
+            className="admin-header-item"
+            style={{
+              borderBottom: pathname.includes("settings")
+                ? "2px solid #512da8"
+                : "none",
+            }}
+          >
             <Link className="admin-header-link" to={`${username}/settings`}>
               Sozlamalar
             </Link>
           </li>
-          <li className="admin-header-item">
-            <Link
-              to={`${username}/premium`}
-              className="admin-header-link register"
-            >
+          <li
+            className="admin-header-item"
+            style={{
+              borderBottom: pathname.includes("premium")
+                ? "2px solid #512da8"
+                : "none",
+            }}
+          >
+            <Link to={`${username}/premium`} className="admin-header-link ">
               Premium
             </Link>
           </li>
@@ -188,7 +210,7 @@ const AdminHeader = ({ username, profileLists }) => {
             <a
               className="admin-header-link
                  register"
-              href="#"
+              href="/#"
               onClick={openModal}
             >
               Yangilash
@@ -199,8 +221,7 @@ const AdminHeader = ({ username, profileLists }) => {
           <MenuBtn />
         </button>
         <div className="drop-btn">
-          {/* <Dropdown /> */}
-          Dropdown
+          <CustomizedMenus {...{ username }} />
         </div>
       </div>
 

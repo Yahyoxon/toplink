@@ -62,23 +62,32 @@ a {
 .mains-admin {
   justify-content: center;
   min-height: 80vh;
+  /* width: 70%; */
+}
+
+.main-bottom .main-subname {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 24px;
+}
+
+.main-bottom .main-name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 24px;
 }
 
 @media (max-width: 1450px) {
   .container {
     width: 1280px;
   }
-  .mains-admin {
-    width: 70% !important;
-  }
 }
 
 @media (max-width: 1290px) {
   .container {
     width: 1170px;
-  }
-  .mains-admin {
-    width: 70%;
   }
 
   .ReactModal__Overlay .premium-modal {
@@ -98,9 +107,7 @@ a {
   .container {
     width: 1000px;
   }
-  .mains-admin {
-    width: 70%;
-  }
+
   .main .edit-main {
     margin-left: 41px;
   }
@@ -124,10 +131,6 @@ a {
     width: 634px;
   }
 
-  .main .refer {
-    margin-left: 35px;
-  }
-
   .main .refer-bottom {
     width: 670px;
   }
@@ -139,6 +142,8 @@ a {
   .main .refer-medium {
     width: 670px;
   }
+
+ 
 
   body .account-shartnoma {
     margin-left: 22px;
@@ -224,9 +229,7 @@ a {
     width: 588px;
   }
 
-  .main .refer {
-    margin-left: 15px;
-  }
+ 
 
   .main .refer-btn {
     left: 68.5%;
@@ -239,6 +242,7 @@ a {
   .account .account-input {
     width: 504px;
   }
+
   .account .account-span .form-control {
     width: 500px;
   }
@@ -386,9 +390,6 @@ a {
     width: 488px;
   }
 
-  .main .refer {
-    margin-left: 10px;
-  }
 
   .main .refer-btn {
     left: 68.5%;
@@ -409,10 +410,10 @@ a {
     line-height: 12px;
   }
 
-  .main .refer-state,
+  /* .main .refer-state,
   .main .refer-box2 {
     width: 76px;
-  }
+  } */
 
   .main .refer-items {
     font-size: 11px;
@@ -498,11 +499,11 @@ a {
     width: 700px;
   }
 
-  .main-form .main-input{
-    width: 440px; 
+  .main-form .main-input {
+    width: 440px;
   }
 
-  .admin-page{
+  .admin-page {
     background-position: top 100% left 98%;
   }
 
@@ -662,10 +663,10 @@ a {
     line-height: 12px;
   }
 
-  .main .refer-state,
+  /* .main .refer-state,
   .main .refer-box2 {
     width: 76px;
-  }
+  } */
 
   .main .refer-items {
     font-size: 11px;
@@ -786,9 +787,6 @@ a {
     width: 428px;
   }
 
-  .main-bottom {
-    width: 400px;
-  }
 }
 
 @media (max-width: 720px) {
@@ -824,8 +822,8 @@ a {
   }
 
   .main-bottom .main-avatar {
-    width: 82px;
-    height: 82px;
+    width: 90px;
+    height: 90px;
   }
 
   .main-form .main-btn {
@@ -862,10 +860,13 @@ a {
 
   .main .edit-form {
     margin-left: 0;
+    width: 100%;
   }
 
   .main .premium-list {
     margin-left: 0;
+    width: 100%;
+    margin-top: 30px;
   }
 
   .premium {
@@ -911,9 +912,7 @@ a {
   .container {
     width: 500px;
   }
-  .mains-admin {
-    width: 100%;
-  }
+
   .ReactModal__Overlay .admin-header-modal {
     width: 46%;
   }
@@ -1084,12 +1083,10 @@ a {
     width: 415px;
     margin-left: 0;
   }
-  .account .account-input {
-    width: 354px;
-  }
+/*  
   .account .account-span .form-control {
     width: 354px;
-  }
+  } */
   .container .account {
     margin: 0;
   }
@@ -1103,7 +1100,8 @@ a {
     padding-left: 30px;
   }
   body .accountKarta {
-    margin: 0;
+    margin-top: 15px;
+    margin-left: 0;
   }
   body .premiumDomen {
     margin-left: 0;
@@ -1134,7 +1132,7 @@ a {
 
 @media (max-width: 420px) {
   .container {
-    width: 300px;
+    width: 310px;
   }
 
   .admin-page {
@@ -1145,27 +1143,33 @@ a {
     display: none;
   }
 
-
   .main-form .main-input {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     color: #699efa;
-    width: 340px;
+    width: 100%;
     margin-left: 0px;
-    height: 40px;
+    height: 45px;
   }
 
   .main-form .main-btn {
     width: 50px;
-    height: 35px;
-    left:71%;
+    height: 38px;
+    left: 85.3%;
+  }
+  .main .refer{
+    width: 100%;
   }
 
   .main-btn .copy-img {
     width: 20px;
     height: 20px;
+  }
+
+ .main   .css-yd0acu-MuiPaper-root {
+    background-color: dodgerblue;
   }
 
   .ReactModal__Overlay .admin-header-modal {
@@ -1177,20 +1181,26 @@ a {
     width: 260px;
   }
 
+  .add-form{
+    width: 100%;
+    margin-top: 20px;
+  }
+
   .main .add-input {
-    width: 222px;
-    font-size: 10px;
+    width: 100%;
+    font-size: 16px;
   }
 
   .main .edit-footer,
   .main .edit-add,
   .main .edit-input {
-    width: 260px;
+    width: 100%;
+    font-size: 16px;
   }
 
   .main .edit-text {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 16px;
     color: #01384d;
     margin-left: 7px;
@@ -1212,6 +1222,8 @@ a {
 
     height: 47px;
     padding-right: 5px;
+
+    width: 100%;
   }
 
   .main .social-icon {
@@ -1220,10 +1232,12 @@ a {
     padding: 0 !important;
   }
   .social-container .social-svg {
-    width: 81% !important;
-    height: 69% !important;
-    top: 3px !important;
-    left: 2px !important;
+    
+    width: 25px !important;
+    height: 25px !important;
+
+    top:15px !important;
+    left: 15px !important;
     padding: 0 !important;
   }
   .main .social-name {
@@ -1233,8 +1247,8 @@ a {
   }
 
   .main .premium-item {
-    width: 278px;
     height: 177px;
+    width: 100%;
   }
 
   .main .premium-title {
@@ -1302,11 +1316,17 @@ a {
     font-size: 16px;
   }
 
+ .account .account-button{
+    width: 100%;
+  }
+
   .main .analytic-footer,
   .main .analytic-medium,
   .main .analytic-top {
     margin-left: 0;
+    width: 100%;
   }
+
 
   .main .analytic-havola {
     font-size: 16px;
@@ -1388,7 +1408,7 @@ a {
   }
 
   .mains-admin {
-    margin-left: 10px;
+    width: 100%;
   }
 
   .main .analyticYangilash-money p {
@@ -1428,7 +1448,7 @@ a {
   .main .refer-medium,
   .main .refer-bottom,
   .main .refer-top {
-    width: 286px;
+     width: 100%;
   }
   .refer-left {
     width: 182px;
@@ -1440,35 +1460,59 @@ a {
   .main .refer-name,
   .main .refer-time,
   .main .refer-state {
-    font-size: 8px;
+    font-size: 16px;
   }
   .main .refer-right {
-    width: 100px;
+    width: 100%;
   }
   .main .refer-item {
     padding: 12px 4px;
+    width: 600px;
   }
-  .main .refer-box1,
-  .main .refer-box2,
+
+  .refer-footer{
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .refer-state{
+    padding: 8px 20px;
+  }
+
+  .refer{
+    margin-left: 0 !important;
+  }
+
+ 
   .main .refer-left {
-    font-size: 9px;
+    font-size: 16px;
+    width: 100%;
+    padding-left: 17px;
   }
+
+  .main .refer-box1,
+  .main .refer-box2 {
+    font-size: 16px;
+    width: 30%;
+  }
+
   .main .refer-btn {
     font-family: "Clarika Geometric";
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
-    line-height: 29px;
+    font-size: 16px;
+    line-height: 16px;
     position: absolute;
-    top: 8%;
-    left: 69.5%;
+    top: 10%;
+    left: 67%;
     color: #ffffff;
     border: none;
-    padding: 7px 5px;
+    padding: 12px 10px;
   }
   .main .refer-input {
-    width: 239px;
-    font-size: 10px;
+    width: 100%;
+    font-size: 14px;
+    height: 48px;
   }
   .main .refer-name {
     padding-left: 3px;
@@ -1480,17 +1524,21 @@ a {
   }
   .main .refer-medium {
     height: 126px;
+    width: 100%;
   }
 
   .account .account-first {
-    width: 305px;
-    margin-left: 0;
+    width: 100%;
   }
+
+  
   .account .account-input {
-    width: 254px;
+    padding: 10px 15px;
+    width: 100%;
   }
   .account .account-span .form-control {
-    width: 254px;
+    padding: 20px 15px;
+    width: 100%;
   }
   .container .account {
     margin: 0;
@@ -1506,7 +1554,7 @@ a {
     margin-left: 0;
   }
   .account-shartnoma .account-shartnoma-box {
-    width: 294px;
+    width: 100%;
   }
   .account-shartnoma .account-shartnoma-btn {
     font-family: "Clarika Geometric";
@@ -1518,11 +1566,16 @@ a {
   }
 
   .accountKarta .accountKarta-first {
-    width: 300px;
+    width: 100%;
   }
   .accountKarta .accountKarta-input {
-    width: 239px;
+    width: 100%;
   }
+
+ .accountKarta .accountKarta-form{
+    padding: 15px 10px;
+  }
+
   .premiumDomen .premiumDomen-first,
   .premiumDomen .premiumDomen-second {
     width: 311px;
@@ -1567,11 +1620,11 @@ a {
   body .main .settings,
   .special .special-color,
   .special .custom-style {
-    width: 280px;
+    width: 100%;
+    margin-top: 20px;
   }
   .special .special-color,
   .special .custom-style {
-    /* margin-left: 60px; */
     margin-left: 0;
     width: 300px;
   }
@@ -1699,6 +1752,7 @@ a {
     line-height: 18px;
   }
 
+
   body .modal .swiper-backface-hidden .swiper-slide {
     margin-right: 0 !important;
     padding: 0 20px !important;
@@ -1712,9 +1766,7 @@ a {
     display: flex !important;
     justify-content: space-around !important;
     flex-wrap: wrap !important;
-
-    width: 249px;
-    margin-left: -10px;
+    width: 100%;
   }
   body .edit-footer header button {
     width: 40% !important;
@@ -1728,15 +1780,19 @@ a {
     width: 85px;
   }
   body .edit-footer .css-jpln7h-MuiTabs-scroller {
-    max-width: 256px !important;
+    
+    width: 100%;
   }
   body .edit-main .edit-footer .css-1ujykiq-MuiButtonBase-root-MuiTab-root {
-    min-height: 20px;
+    min-height: 25px;
     padding: 0;
-    font-size: 11px;
+    margin: 2px 5px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
   }
   .edit-main .edit-footer .edit-add {
-    height: 43px;
+    height: 35px;
   }
   .add-footer {
     width: 249px;
@@ -1744,7 +1800,19 @@ a {
   .add-footer .add-cancel,
   .add-footer .add-create {
     padding: 5px 4px;
+    font-size: 18px;
+    
+    width: 33%;
   }
+
+  .add-footer{
+    width: 100%;
+  }
+
+ .admin-page .main{
+    padding: 10px 0 30px 0;
+  }
+
   .edit-footer .css-1ujnqem-MuiTabs-root {
     width: 260px;
   }
@@ -1861,4 +1929,16 @@ a {
     padding: 0;
     border: none;
   }
+  .adminSocial-link{
+    width: 100% !important;
+  }
+  .social-container{
+    position: relative !important;
+    top: -15px !important;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
 }
+
+

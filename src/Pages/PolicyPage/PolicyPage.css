@@ -135,41 +135,17 @@
     overflow: hidden;
     width: 91%;
     height: 29px;
-
     color: #170F49;
-    /* background-color: red; */
-
 }
 
-
-.policy-page .faq_text {
-    font-family: 'Clarika Geometric';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
  
-    text-overflow: ellipsis;
-    white-space: wrap;
-    overflow: hidden;
-    width: 90%;
-    max-height: 100%;
-    margin-top: 8px;
-   
-    color: #6F6C90;
-
-}
-
 
 @media(max-width:920px) {
     .container {
         width: 800px;
     }
 
-    .policy-page .faq_text {
-        font-size: 15px;
-        line-height: 18px;
-    }
+   
 
 }
 
@@ -185,20 +161,14 @@
     .container {
         width: 600px;
     }
-    .policy-page .faq_header {
-        width: 91%;
-    word-break: break-word;
-    height: 57px;
-}
+  
 }
 
 @media(max-width:620px) {
     .container {
         width: 500px;
     }
-    .policy-page .faq_text {
-        max-height: 378.5px;
-    }
+   
 }
 
 @media(max-width:520px) {
@@ -206,38 +176,15 @@
         width: 400px;
     }
 
-    .policy-page .faq_text {
-        font-size: 11px;
-        line-height: 18px;
-    }
+ 
 
 }
 
 @media(max-width:420px) {
     .container {
-        width: 300px;
-    }
-    .policy-page .faq_list__item .faq_header {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 18px;
-    
-    }
-    .faq_list__item:nth-child(3) .faq_header{
-        height: 20px;
-    }
-    .faq_list__item:nth-child(4) .faq_header{
-   
-        width: 82.4%;
-        max-height: 120px;
-        height: 36px;
-        white-space: normal;
-        word-break: break-word;
-    }
-    .policy-page .faq_text {
-        max-height: 486.5px;
-        margin-top: 0;
-    }
+        width: 100%;
+        padding: 0px 15px;
+      }
+ 
 
 }

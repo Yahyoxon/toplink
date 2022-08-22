@@ -116,12 +116,12 @@ const ProfileEdit = ({ username }) => {
     <form className="edit-form" onSubmit={handleSubmit(changeUpdateProfile)}>
       <div className="edit-section">
         <div className="edit-left">
-          <div
+          <div className="edit__left"
             style={{
               position: "relative",
               width: "140px",
               height: "140px",
-              marginRight: 30,
+            
             }}
           >
             <CropperModal
