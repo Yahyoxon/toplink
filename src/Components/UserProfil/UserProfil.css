@@ -128,7 +128,7 @@
   .container {
     width: 500px;
   }
-  
+
   .userprofil__button {
     margin-left: 220px;
   }
@@ -151,7 +151,6 @@
 }
 
 @media (max-width: 420px) {
-
   .container {
     width: 330px;
   }
@@ -160,14 +159,13 @@
     font-size: 20px;
   }
 
-  .userprofil__input{
+  .userprofil__input {
     width: 330px;
   }
 
   .userprofil__link {
     margin-right: 0px;
   }
-
 }
 
 /* USER IMAGE PART */

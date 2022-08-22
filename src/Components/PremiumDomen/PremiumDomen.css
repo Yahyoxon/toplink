@@ -1,240 +1,222 @@
 .premiumDomen {
-    margin-left: 45px;
+  margin-left: 45px;
 }
 
 .premiumDomen-btn:nth-child(1) {
-    background: linear-gradient(180deg, #673AB7 0%, #512DA8 100%);
-    border-radius: 50px;
-    font-family: 'Clarika Geometric';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border-radius: 50px;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
 
-    text-align: center;
+  text-align: center;
 
-    color: #FFFFFF;
-    padding: 5px 20px;
-    border: none;
+  color: #ffffff;
+  padding: 5px 20px;
+  border: none;
 }
 
 .premiumDomen-btn:nth-child(2) {
-    border-radius: 50px;
-    font-family: 'Clarika Geometric';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
+  border-radius: 50px;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
 
-    text-align: center;
-    background-color: white;
-    color: black;
-    padding: 5px 20px;
-    border: none;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  border: none;
 }
 
 .premiumDomen-top {
-    background-color: white;
+  background-color: white;
 
-    /* margin-left: 25px; */
-    width: 100%;
-    margin-top: 5px;
-    padding: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
-
+  /* margin-left: 25px; */
+  width: 100%;
+  margin-top: 5px;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.45);
 }
 
 .premiumDomen-first {
-    width: 705px;
-    height: 255px;
+  width: 705px;
+  height: 255px;
 
-
-    border: 1px solid rgba(0, 0, 0, 0.45);
-    border-radius: 10px;
-
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
 }
-.premiumDomen-second{
-    width: 705px;
-    height: 255px;
+.premiumDomen-second {
+  width: 705px;
+  height: 255px;
 
-
-    border: 1px solid rgba(0, 0, 0, 0.45);
-    border-radius: 10px;
-    margin-top: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+  margin-top: 25px;
 }
-
 
 .premiumDomen-third {
-    width: 705px;
-    min-height: 175px;
+  width: 705px;
+  min-height: 175px;
 
-margin-top: 25px;
-    border: 1px solid rgba(0, 0, 0, 0.45);
-    border-radius: 10px;
-
+  margin-top: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
 }
 .premiumDomen-top {
-    display: flex;
-    padding: 15px 30px;
-
+  display: flex;
+  padding: 15px 30px;
 }
 
 .premiumDomen-headers {
-    font-family: 'Clarika Geometric';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    /* identical to box height */
-    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
-    padding: 10px 30px;
-    /* Gray 1 */
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+  padding: 10px 30px;
+  /* Gray 1 */
 
-    color: #01384D;
-
+  color: #01384d;
 }
 
 .premiumDomen-span {
-    display: flex;
-    flex-direction: column;
-    margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
 }
 
- 
-
 .premiumDomen-span label {
-    font-family: 'Clarika Geometric';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
 
-    /* Gray 1 */
+  /* Gray 1 */
 
-    color: #01384D;
-    margin-bottom: 5px;
+  color: #01384d;
+  margin-bottom: 5px;
 }
 
 .premiumDomen-input {
+  border: 1.5px solid #575dfb;
+  border-radius: 10px;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 
-    border: 1.5px solid #575DFB;
-    border-radius: 10px;
-    font-family: 'Clarika Geometric';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-
-    letter-spacing: -0.011em;
- outline: #01384D;
-    padding: 8px 25px;
-    color: #01384D;
-    width: 635px;
-    padding-left: 13px;
-
+  letter-spacing: -0.011em;
+  outline: #01384d;
+  padding: 8px 25px;
+  color: #01384d;
+  width: 635px;
+  padding-left: 13px;
 }
 
 .premiumDomen-span .form-control {
-    border: 1.5px solid #575DFB;
-    border-radius: 10px;
-    font-family: 'Clarika Geometric';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+  border: 1.5px solid #575dfb;
+  border-radius: 10px;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 
-    letter-spacing: -0.011em;
+  letter-spacing: -0.011em;
 
-    width: 635px;
-    padding-left: 45px !important;
-    padding: 8px 25px;
-    color: #01384D;
+  width: 635px;
+  padding-left: 45px !important;
+  padding: 8px 25px;
+  color: #01384d;
 }
 
 .premiumDomen-button {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    width: 105px;
-    height: 40px;
-    /* White / Main */
-    margin-left: auto;
-    border: none;
-    color: #FFFFFF;
-    background: linear-gradient(180deg, #673AB7 0%, #512DA8 100%);
-    border-radius: 8px;
-    cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 105px;
+  height: 40px;
+  /* White  Main */
+  margin-left: auto;
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border-radius: 8px;
+  cursor: pointer;
 }
-
- 
 
 .premiumDomen-footers {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
 }
 
 .premiumDomen-button {
-    margin-left: 0;
-
+  margin-left: 0;
 }
 
 .premiumDomen-headers button {
-    font-family: 'Clarika Geometric';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #8898A1;
-    border: none;
-    width: 105px;
-    height: 32px;
-    cursor: pointer;
-    background: #E5ECFC;
-    border-radius: 20px;
-
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8898a1;
+  border: none;
+  width: 105px;
+  height: 32px;
+  cursor: pointer;
+  background: #e5ecfc;
+  border-radius: 20px;
 }
 
 .premiumDomen-headers {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
- 
-.premiumDomen-footers{
-    padding: 20px 30px;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, 0.45);
-}
-.premiumDomen-span{
-    padding: 15px 30px;
-}
-.premiumDomen-blok{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.premiumDomen-blok .premiumDomen-input{
-    width: 276px;
-    padding-left: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.premiumDomen-list{
-    display: flex;
-   flex-wrap: wrap;
-    align-items: center;
-    padding-left: 10px;
+.premiumDomen-footers {
+  padding: 20px 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.45);
 }
-.premiumDomen-item{
-    margin:  20px;
+.premiumDomen-span {
+  padding: 15px 30px;
+}
+.premiumDomen-blok {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.premiumDomen-blok .premiumDomen-input {
+  width: 276px;
+  padding-left: 13px;
 }
 
+.premiumDomen-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 10px;
+}
+.premiumDomen-item {
+  margin: 20px;
+}

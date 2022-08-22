@@ -143,8 +143,6 @@ a {
     width: 670px;
   }
 
- 
-
   body .account-shartnoma {
     margin-left: 22px;
   }
@@ -228,8 +226,6 @@ a {
   .main .refer-top {
     width: 588px;
   }
-
- 
 
   .main .refer-btn {
     left: 68.5%;
@@ -389,7 +385,6 @@ a {
   .main .refer-top {
     width: 488px;
   }
-
 
   .main .refer-btn {
     left: 68.5%;
@@ -786,7 +781,6 @@ a {
   .edit-footer .schedule-box {
     width: 428px;
   }
-
 }
 
 @media (max-width: 720px) {
@@ -1083,7 +1077,7 @@ a {
     width: 415px;
     margin-left: 0;
   }
-/*  
+  /*  
   .account .account-span .form-control {
     width: 354px;
   } */
@@ -1159,7 +1153,7 @@ a {
     height: 38px;
     left: 85.3%;
   }
-  .main .refer{
+  .main .refer {
     width: 100%;
   }
 
@@ -1168,7 +1162,7 @@ a {
     height: 20px;
   }
 
- .main   .css-yd0acu-MuiPaper-root {
+  .main .css-yd0acu-MuiPaper-root {
     background-color: dodgerblue;
   }
 
@@ -1181,7 +1175,7 @@ a {
     width: 260px;
   }
 
-  .add-form{
+  .add-form {
     width: 100%;
     margin-top: 20px;
   }
@@ -1232,11 +1226,10 @@ a {
     padding: 0 !important;
   }
   .social-container .social-svg {
-    
     width: 25px !important;
     height: 25px !important;
 
-    top:15px !important;
+    top: 15px !important;
     left: 15px !important;
     padding: 0 !important;
   }
@@ -1316,7 +1309,7 @@ a {
     font-size: 16px;
   }
 
- .account .account-button{
+  .account .account-button {
     width: 100%;
   }
 
@@ -1326,7 +1319,6 @@ a {
     margin-left: 0;
     width: 100%;
   }
-
 
   .main .analytic-havola {
     font-size: 16px;
@@ -1448,7 +1440,7 @@ a {
   .main .refer-medium,
   .main .refer-bottom,
   .main .refer-top {
-     width: 100%;
+    width: 100%;
   }
   .refer-left {
     width: 182px;
@@ -1470,20 +1462,19 @@ a {
     width: 600px;
   }
 
-  .refer-footer{
+  .refer-footer {
     overflow-x: auto;
     width: 100%;
   }
 
-  .refer-state{
+  .refer-state {
     padding: 8px 20px;
   }
 
-  .refer{
+  .refer {
     margin-left: 0 !important;
   }
 
- 
   .main .refer-left {
     font-size: 16px;
     width: 100%;
@@ -1531,7 +1522,6 @@ a {
     width: 100%;
   }
 
-  
   .account .account-input {
     padding: 10px 15px;
     width: 100%;
@@ -1572,7 +1562,7 @@ a {
     width: 100%;
   }
 
- .accountKarta .accountKarta-form{
+  .accountKarta .accountKarta-form {
     padding: 15px 10px;
   }
 
@@ -1752,7 +1742,6 @@ a {
     line-height: 18px;
   }
 
-
   body .modal .swiper-backface-hidden .swiper-slide {
     margin-right: 0 !important;
     padding: 0 20px !important;
@@ -1780,7 +1769,6 @@ a {
     width: 85px;
   }
   body .edit-footer .css-jpln7h-MuiTabs-scroller {
-    
     width: 100%;
   }
   body .edit-main .edit-footer .css-1ujykiq-MuiButtonBase-root-MuiTab-root {
@@ -1801,15 +1789,15 @@ a {
   .add-footer .add-create {
     padding: 5px 4px;
     font-size: 18px;
-    
+
     width: 33%;
   }
 
-  .add-footer{
+  .add-footer {
     width: 100%;
   }
 
- .admin-page .main{
+  .admin-page .main {
     padding: 10px 0 30px 0;
   }
 
@@ -1929,10 +1917,10 @@ a {
     padding: 0;
     border: none;
   }
-  .adminSocial-link{
+  .adminSocial-link {
     width: 100% !important;
   }
-  .social-container{
+  .social-container {
     position: relative !important;
     top: -15px !important;
     left: 0px;
@@ -1940,5 +1928,3 @@ a {
     height: 100%;
   }
 }
-
-

@@ -1,5 +1,4 @@
 import Nav from "../../Components/Nav/Nav";
-import "./CodeForgetPage.css";
 import { useState } from "react";
 import Api from "../../Api/Api";
 import { useNavigate } from "react-router-dom";

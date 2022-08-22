@@ -1,7 +1,6 @@
 
 
 import "./AccountShartnoma.css"
-import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 import { Link, useParams } from "react-router-dom"
 
