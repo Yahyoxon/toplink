@@ -1,0 +1,87 @@
+.profile {
+    padding: 20px 0;
+}
+
+.profile .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 52px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
+    width: 501px;
+    height: 52px;
+    color: #182F43;
+
+}
+
+.profile-text {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
+    /* background-color: red; */
+    width: 535px;
+    height: 73px;
+    color: #182F43;
+}
+
+.profile-left {
+    width: 55%;
+
+}
+
+.profile-right {
+    width: 45%;
+}
+
+.profile-img{
+    animation-name: workAn1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.profileImgs{
+    display: none;
+    animation-name: workAn1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes workAn1{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(20px);
+    }
+}
+
+@media (max-width:520px) {
+    
+    .container{
+        width: 400px;
+    }
+
+    .profileImgs{
+        display: block;
+        /* object-fit: cover; */
+    }
+    .profile-img{
+        display: none;
+    }
+}

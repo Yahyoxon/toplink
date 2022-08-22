@@ -1,0 +1,640 @@
+.userprofil {
+  margin: 30px 100px 0 100px;
+  min-height: 100vh;
+}
+
+.userprofil__imgs {
+  text-align: center;
+}
+
+.userprofil__name {
+  color: #303066;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 2.5rem 1.25rem;
+  text-align: center;
+}
+
+.userprofil__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.userprofil__list {
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userprofil__btn {
+  box-shadow: inset 0 0 0 1px #b4bec8;
+  background: 0 0;
+  color: #b4bec8;
+  font-size: 16px;
+  line-height: 0.8em;
+  min-height: 48px;
+  padding: 15px 32px;
+  border-radius: 40px;
+}
+
+.userprofil__link {
+  margin-right: 20px;
+}
+
+.userprofil__button {
+  background: #7979ff;
+  border: 2px solid #7979ff;
+  border-radius: 40px;
+  width: 100px;
+  height: 46px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 320px;
+  transition: 0.3s;
+}
+
+/* .userprofil__button:hover {
+  background-color: #fff;
+  color: #7979ff;
+  font-weight: 600;
+  border: 3px solid #7979ff;
+} */
+
+.userprofil__input {
+  padding: 0 14px;
+  height: 45px;
+  width: 550px;
+  border-radius: 8px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.userprofil label {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1160px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 1020px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 920px) {
+  .container {
+    width: 800px;
+  }
+
+  .userprofil {
+    margin: 0 30px;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    width: 700px;
+  }
+  .userprofil {
+    margin: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+  .userprofil__input {
+    width: 500px;
+  }
+  .userprofil__button {
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 500px;
+  }
+  .userprofil__input {
+    width: 450px;
+  }
+  .userprofil__button {
+    margin-left: 220px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+  .userprofil__input {
+    width: 380px;
+  }
+  .userprofil__button {
+    margin-left: 60px;
+  }
+  .userprofil__name {
+    font-size: 25px;
+  }
+  .userprofil__btn {
+    min-height: 48px;
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 330px;
+  }
+  .userprofil__input {
+    width: 320px;
+  }
+
+  .userprofil__name {
+    font-size: 20px;
+  }
+
+  .userprofil__link {
+    margin-right: 0px;
+  }
+
+}
+
+/* USER IMAGE PART */
+
+.userimage {
+  margin: 30px 100px 0 100px;
+  position: relative;
+  min-height: 100vh;
+}
+.userimage__imgs {
+  text-align: center;
+}
+
+.userimage__box {
+  background-color: #f0f0f0;
+  border-radius: 100%;
+  /* box-shadow: 0 7px 10px rgba(50,50,93,0.1), 0 3px 4px rgba(0,0,0,0.6); */
+  height: 130px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  width: 130px;
+}
+
+.userimage__img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.userimage__logo {
+  color: white;
+  font-size: 30px;
+}
+
+.userimage__icon {
+  position: absolute;
+  top: 58%;
+  left: 48.8%;
+}
+
+.userimage__label {
+  cursor: pointer;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 138px;
+  border-radius: 100%;
+  height: 138px;
+  margin: 0 auto;
+  padding-top: 1px;
+  border: 3.5px dashed #afafaf;
+}
+
+.userimage__file[type="file"] {
+  display: none;
+}
+.userimage__name {
+  color: #303066;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 2.5rem 1.25rem;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.userimage__list {
+  text-align: center;
+}
+
+.userimage__btn {
+  background: #7979ff;
+  border: 2px solid #7979ff;
+  border-radius: 40px;
+  width: 100px;
+  height: 46px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 200px;
+  transition: 0.3s;
+  margin-top: 60px;
+}
+
+.userimage__btn:hover {
+  background-color: #fff;
+  color: #7979ff;
+  font-weight: 600;
+  border: 3px solid #7979ff;
+}
+
+.userimage__btns {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+  .userimage {
+    margin: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 500px;
+  }
+  .userimage__name {
+    font-size: 22px;
+    width: 420px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+  .userimage__name {
+    font-size: 20px;
+    width: 360px;
+  }
+  .userimage__pic {
+    width: 120px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 330px;
+  }
+  .userimage__name {
+    font-size: 20px;
+    width: 300px;
+  }
+}
+
+.userimage {
+  margin: 30px 100px 0 100px;
+  position: relative;
+  min-height: 100vh;
+}
+.userimage__imgs {
+  text-align: center;
+}
+
+.userimage__box {
+  background-color: #f0f0f0;
+  border-radius: 100%;
+  /* box-shadow: 0 7px 10px rgba(50,50,93,0.1), 0 3px 4px rgba(0,0,0,0.6); */
+  height: 130px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  width: 130px;
+}
+
+.userimage__img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.userimage__logo {
+  color: white;
+  font-size: 30px;
+}
+
+.userimage__icon {
+  position: absolute;
+  top: 58%;
+  left: 48.8%;
+}
+
+.userimage__label {
+  cursor: pointer;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 138px;
+  border-radius: 100%;
+  height: 138px;
+  margin: 0 auto;
+  padding-top: 1px;
+  border: 3.5px dashed #afafaf;
+}
+
+.userimage__file[type="file"] {
+  display: none;
+}
+.userimage__name {
+  color: #303066;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 2.5rem 1.25rem;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.userimage__list {
+  text-align: center;
+}
+
+.userimage__btn {
+  background: #7979ff;
+  border: 2px solid #7979ff;
+  border-radius: 40px;
+  width: 100px;
+  height: 46px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 200px;
+  transition: 0.3s;
+  margin-top: 60px;
+}
+
+.userimage__btn:hover {
+  background-color: #fff;
+  color: #7979ff;
+  font-weight: 600;
+  border: 3px solid #7979ff;
+}
+
+.userimage__btns {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+  .userimage {
+    margin: 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 500px;
+  }
+  .userimage__name {
+    font-size: 22px;
+    width: 420px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+  .userimage__name {
+    font-size: 20px;
+    width: 360px;
+  }
+  .userimage__pic {
+    width: 120px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 330px;
+  }
+  .userimage__name {
+    font-size: 20px;
+    width: 300px;
+  }
+}
+
+/* USER FORM PART */
+
+.userform {
+  margin: 30px 100px 0 100px;
+  padding-bottom: 50px;
+  min-height: 100vh;
+}
+
+.userform__name {
+  color: #303066;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 2.5rem 1.25rem;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.userform__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.userform__imgs {
+  text-align: center;
+}
+
+.userform__text {
+  padding-bottom: 20px;
+  color: red;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.userform__btn {
+  background: #7979ff;
+  border: 2px solid #7979ff;
+  border-radius: 40px;
+  width: 100px;
+  height: 46px;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 250px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.userform__links {
+  margin-right: 100px;
+}
+
+.userform__btn:hover {
+  background-color: #fff;
+  color: #7979ff;
+  font-weight: 600;
+  border: 3px solid #7979ff;
+}
+
+.userform__input {
+  padding: 0 14px;
+  height: 40px;
+  width: 550px;
+  border-radius: 8px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.userform__inputs {
+  padding: 22px 14px 80px 14px;
+  height: 40px;
+  width: 550px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.userform__link {
+  box-shadow: inset 0 0 0 1px #b4bec8;
+  background: 0 0;
+  color: #b4bec8;
+  font-size: 16px;
+  line-height: 0.8em;
+  min-height: 48px;
+  padding: 15px 32px;
+  border-radius: 40px;
+}
+
+.userform__title {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 920px) {
+  .container {
+    width: 800px;
+  }
+  .userform {
+    margin: 0;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+
+  .userform__input {
+    width: 500px;
+  }
+  .userform__inputs {
+    width: 500px;
+  }
+  .userform__btn {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 500px;
+  }
+  .userform__input,
+  .userform__inputs {
+    width: 450px;
+  }
+
+  .userform__name {
+    width: 460px;
+    font-size: 25px;
+  }
+
+  .userform__btn {
+    margin-left: 140px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+  .userform__input,
+  .userform__inputs {
+    width: 380px;
+  }
+  .userform__btn {
+    margin-left: 80px;
+  }
+
+  .userform__name {
+    font-size: 22px;
+    width: 360px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 300px;
+  }
+  .userform__input,
+  .userform__inputs {
+    width: 320px;
+  }
+
+  .userform__name {
+    font-size: 20px;
+  }
+
+  .userform__link {
+    min-height: 44px;
+    padding: 12px 25px;
+  }
+
+  .userform__inputs::placeholder {
+    font-size: 10px;
+  }
+
+  .userform__btn {
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,49 @@
+.settings-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.settings-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.settings-title {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 10px 20px;
+  color: #01384d;
+}
+
+.settings {
+  width: 632px;
+  min-height: 650px;
+  background: #ffffff;
+  padding: 0px;
+  border: 0.5px solid #bfcdd3;
+  border-radius: 8px;
+
+  margin-left: 160px;
+}
+.settings-list {
+  border-top: 1px solid #01384d;
+  padding: 20px 10px;
+}
+
+.settings-item {
+  width: 24.3%;
+  margin: 9px 0px;
+  /* background-color: violet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+

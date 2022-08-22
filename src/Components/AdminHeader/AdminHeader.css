@@ -1,0 +1,271 @@
+.admin-header .container,
+.admin-header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-header {
+  padding: 15px 0;
+  border-bottom: 0.5px solid #abbac3;
+}
+
+.admin-header-item {
+  margin: 0px 25px;
+}
+
+.admin-header-link {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  letter-spacing: 0.15px;
+  align-items: center;
+  transition: 0.3s;
+  border-radius: 4px;
+  padding: 10px 5px;
+  color: #000000;
+}
+
+.dashboard__link-active {
+  background: #f5f6fa;
+  border-radius: 4px;
+  color: #512da8;
+}
+
+.dashboard__link-active svg path {
+  fill: #512da8;
+}
+
+.admin-header-link:hover {
+  color: #673ab7;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.admin-menu-close{
+  width: 30px;
+  height: 30px;
+}
+
+.admin-menu-btn {
+  display: none;
+  width: 40px;
+  height: 35px;
+}
+
+.admin-dashboard {
+  padding: 3px 10px;
+
+  width: 220px;
+  height: 428px;
+
+  border-radius: 8px;
+}
+
+.admin-dashboard-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-dashboard-item {
+  margin: 3px 0;
+}
+
+.admin-dashboard-link {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  border-radius: 4px;
+  padding: 10px 5px;
+  color: #000000;
+}
+
+.admin-dashboard-link:hover {
+  background: #f5f6fa;
+}
+
+.admin-dashboard-text {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.15px;
+
+  margin-left: 18px;
+  color: #000000;
+  width: 150px;
+}
+
+.admin-dashboard-top {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.45);
+  padding-bottom: 16px;
+}
+
+.admin-dashboard-name {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  letter-spacing: 0.18px;
+  height: 24px;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  /* background-color: red; */
+  color: #0e0e2c;
+}
+
+.admin-dashboard-pic {
+  width: 20px;
+  height: 23px;
+}
+
+.admin-dashboard-list {
+  margin-top: 20px;
+}
+
+.admin-dashboard-btn {
+  cursor: pointer;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #01384d;
+  width: 178px;
+  height: 40px;
+  border: 1px solid transparent;
+  background: #e5ecfc;
+  border-radius: 20px;
+}
+
+.dashboard__link-active{
+  color: #512DA8;
+}
+
+/* .admin-close-menu {
+  transform: translateX(180px);
+} */
+
+.admin-header-modal {
+  display: block;
+  top: 50%;
+  left: 0%;
+  bottom: auto;
+  height: 100vh;
+  width: 40%;
+  transform: translate(0%, 0%);
+  padding: 15px 10px;
+  background-color: white;
+  border-right: 0.2px solid rgba(10, 4, 23, 0.5);
+}
+
+body .css-19kzrtu {
+  height: 100%;
+  padding: 0;
+}
+.pre-modal .MuiTab-textColorPrimary {
+  border-bottom: none;
+}
+body .css-1aquho2-MuiTabs-indicator {
+  background-color: transparent !important;
+}
+/* body .MuiButtonBase-root {
+    width: 200px;
+} */
+body .css-xqhexu-MuiPaper-root-MuiAppBar-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal .css-1ujykiq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border-radius: 50px;
+  color: white;
+  width: 148px;
+}
+.modal .swiper-backface-hidden .swiper-slide {
+  margin-right: 0 !important;
+  padding: 0 20px !important;
+  width: 34% !important;
+}
+
+.premium-modal {
+  position: relative;
+}
+.pre-close-modal {
+  position: absolute;
+  top: 1.84%;
+  left: 86.1%;
+  color: white;
+  background-color: red;
+  padding: 0px;
+  width: 34px;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+  height: 34px;
+  border-radius: 0;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+@media (max-width: 720px) {
+    
+    .container{
+        width: 600px;
+    }
+
+    .admin-header-list,
+    .admin-logo {
+      display: none;
+    }
+
+}
+
+@media (max-width:620px) {
+  
+  .container{
+    width: 500px;
+  }
+
+  .admin-header{
+    justify-content: space-around;
+  }
+}
+
+@media (max-width:520px) {
+  
+  .container{
+    width: 400px;
+  }
+}
+
+
+
+@media (max-width: 420px) {
+  .container {
+    width: 300px;
+  }
+  .pre-close-modal {
+    left: 90%;
+    top: 0;
+  }
+ 
+}
+
+.MuiTabs-indicator {
+  background-color: transparent !important;
+}
+.MuiTabs-flexContainer {
+  box-shadow: none !important;
+}

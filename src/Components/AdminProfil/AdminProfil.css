@@ -1,0 +1,667 @@
+.drop-btn {
+  display: none;
+}
+
+.main .container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.main-input {
+  background: #fdfdff;
+  border: 1px solid #e5ecfc;
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 15px;
+  height: 58px;
+  width: 600px;
+  outline: none;
+  color: #699efa;
+}
+
+.main-form {
+  position: relative;
+  width: 100% !important;
+}
+
+.main-btn {
+  position: absolute;
+  top: 8.3%;
+  left: 88%;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border-radius: 16px;
+  border: none;
+  width: 72px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.main {
+  padding: 50px 0;
+}
+
+.main-right {
+  margin-left: 130px;
+}
+
+.main-bottom {
+  display: flex;
+  align-items: center;
+
+  /* margin-top: 30px; */
+}
+
+.main-avatar {
+  width: 120px;
+  object-fit: cover;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.adminSocial-name {
+  white-space: nowrap;
+  text-overflow: hidden;
+  overflow: hidden;
+}
+
+@media (max-width: 1450px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 920px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+
+  .admin-menu-btn,
+  .drop-btn {
+    display: block !important;
+    border: none;
+    background-color: transparent;
+  }
+
+  .admin-header-list,
+  .admin-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 300px;
+  }
+  .main-bottom div,
+  .admin-page .main-right {
+    margin-left: 0;
+  }
+
+
+  .main-bottom{
+      padding: 10px 0;
+      padding-bottom: 25px;
+      padding-left: -40px;
+      width: 350px;
+  }
+
+}
+
+/* ******************  blue  ****************************/
+
+.copy-img {
+  font-size: 24px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-weight: 100;
+}
+
+.adminProfile-page-blue {
+  background: linear-gradient(67.18deg, #797cf6 2.04%, #66c6dd 97.06%);
+}
+
+.main-form .main-input-blue {
+  background: rgba(253, 253, 255, 0.15);
+  color: white;
+  border: 1px solid transparent;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-blue {
+  background: white;
+}
+
+.copy-img-blue {
+  color: #6bb5e3;
+}
+
+/* **********************************   dark       ****************/
+
+.adminProfile-page-dark {
+  background: #1b1b36;
+}
+
+.main-form .main-input-dark {
+  background: rgba(253, 253, 255, 0.15);
+  color: white;
+  border: 1px solid transparent;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-dark {
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+}
+
+.copy-img-dark {
+  color: white;
+}
+/* ******************** dusk ********************* */
+
+.adminProfile-page-dusk {
+  background: linear-gradient(112.85deg, #212e47 2.17%, #b72e30 97.23%);
+}
+
+.main-form .main-input-dusk {
+  background: rgba(0, 0, 0, 0.15);
+  color: white;
+  border: 1px solid transparent;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-dusk {
+  background: white;
+}
+
+.copy-img-dusk {
+  color: #752f37;
+}
+
+/* **********************************   purple       ****************/
+
+.adminProfile-page-purple {
+  background: linear-gradient(92.77deg, #383872 1.86%, #6060c5 97.68%);
+}
+
+.main-form .main-input-purple {
+  background: transparent;
+
+  border: 1px solid #ffffff;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-purple {
+  background: white;
+}
+
+.copy-img-purple {
+  color: #5555ae;
+}
+/* **********************************   warm       ****************/
+
+.adminProfile-page-warm {
+  background: linear-gradient(
+    90.04deg,
+    #ed6467 0.04%,
+    #f8d553 45.96%,
+    #ed6767 99.96%
+  );
+}
+
+.main-form .main-input-warm {
+  background: rgba(253, 253, 255, 0.15);
+  color: white;
+  border: 1px solid transparent;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-warm {
+  background: white;
+}
+
+.copy-img-warm {
+  color: #ec5a6a;
+}
+
+/* **********************************   neon       ****************/
+
+.adminProfile-page-neon {
+  background: linear-gradient(
+    88.82deg,
+    #101939 0.48%,
+    #314389 59.1%,
+    #101838 99.09%
+  );
+}
+
+.main-form .main-input-neon {
+  background: transparent;
+  color: white;
+  border: 1px solid #ffffff;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-neon {
+  background: transparent;
+  border: 2px solid #75fb4c;
+}
+
+.copy-img-neon {
+  color: #75fb4c;
+}
+
+/* **********************************   pastel       ****************/
+
+.adminProfile-page-pastel {
+  background: #bdd78d;
+}
+
+.main-form .main-input-pastel {
+  background: rgba(0, 0, 0, 0.15);
+  color: white;
+  border: 1px solid transparent;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-pastel {
+  background: #819260;
+}
+
+.copy-img-pastel {
+  color: white;
+}
+
+/* **********************************   luxury       ****************/
+
+.adminProfile-page-luxury {
+  background: linear-gradient(
+    90.61deg,
+    #1a1d2b 0.46%,
+    #313542 51.68%,
+    #1a1f2c 99.43%
+  );
+}
+
+.main-form .main-input-luxury {
+  background: rgba(0, 0, 0, 0.15);
+  color: white;
+  border: 1px solid white;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-luxury {
+  background: linear-gradient(
+    90.12deg,
+    #c7ad5c 0.6%,
+    #d8c78d 58.18%,
+    #877335 99.9%
+  );
+}
+
+.copy-img-luxury {
+  color: black;
+}
+
+.adminSocial-boxes-luxury {
+  color: #ffff54;
+}
+
+/* **********************************   stitched       ****************/
+
+.adminProfile-page-stitched {
+  background: #223e5c;
+}
+
+.main-form .main-input-stitched {
+  background: rgba(253, 253, 255, 0.15);
+  color: white;
+  border: 1px solid transparent;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-stitched {
+  background: #5eaba3;
+}
+
+.copy-img-stitched {
+  color: white;
+}
+
+/* **********************************   sunset       ****************/
+
+.adminProfile-page-sunset {
+  background-image: linear-gradient(
+    155deg,
+    #841e3f 0%,
+    #841e3f 0% 25%,
+    #b7263d 25% 50%,
+    #ec6342 50% 75%,
+    #f6c544 75% 100%
+  );
+}
+
+.main-form .main-input-sunset {
+  background: white;
+  color: #b7263d;
+  border: 1px solid transparent;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-sunset {
+  background: #ffc303;
+}
+
+.copy-img-sunset {
+  color: white;
+}
+
+.main-blok .main-name-sunset {
+  color: #ffffff;
+}
+
+.adminSocial-boxes-sunset {
+  background: #ffff54;
+}
+
+.adminSocial-link .adminSocial-boxes-sunset {
+  background-color: transparent;
+}
+
+/* **********************************   friendly       ****************/
+
+.adminProfile-page-friendly {
+  background-image: url("../../Assets/Img/friendly.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-form .main-input-friendly {
+  background: white;
+  color: #79799c;
+  border: 1px solid transparent;
+  padding-left: 25px;
+}
+
+.main-form .main-btn-friendly {
+  background: #ff6a66;
+}
+
+.copy-img-friendly {
+  color: white;
+}
+.adminSocial-boxes-friendly {
+  background: #ffff54;
+}
+
+.main-input-Alegreya,
+.adminSocial-name-Alegreya,
+.main-text-Alegreya,
+.main-subname-Alegreya,
+.main-name-Alegreya {
+  font-family: "Alegreya", serif;
+}
+
+.main-input-Alfa-Slab-One,
+.adminSocial-name-Alfa-Slab-One,
+.main-text-Alfa-Slab-One,
+.main-subname-Alfa-Slab-One,
+.main-name-Alfa-Slab-One {
+  font-family: "Alfa Slab One", cursive;
+}
+
+.main-input-Boogaloo,
+.adminSocial-name-Boogaloo,
+.main-text-Boogaloo,
+.main-subname-Boogaloo,
+.main-name-Boogaloo {
+  font-family: "Boogaloo", cursive;
+}
+.main-input-Caveat,
+.adminSocial-name-Caveat,
+.main-text-Caveat,
+.main-subname-Caveat,
+.main-name-Caveat {
+  font-family: "Caveat", cursive;
+}
+
+.main-input-ConcertOne,
+.adminSocial-name-ConcertOne,
+.main-text-ConcertOne,
+.main-subname-ConcertOne,
+.main-name-ConcertOne {
+  font-family: "Concert One", cursive;
+}
+
+.main-input-Cookie,
+.adminSocial-name-Cookie,
+.main-text-Cookie,
+.main-subname-Cookie,
+.main-name-Cookie {
+  font-family: "Cookie", cursive;
+}
+.main-input-Courgette,
+.adminSocial-name-Courgette,
+.main-text-Courgette,
+.main-subname-Courgette,
+.main-name-Courgette {
+  font-family: "Courgette", cursive;
+}
+
+.main-input-FiraSans,
+.adminSocial-name-FiraSans,
+.main-text-FiraSans,
+.main-subname-FiraSans,
+.main-name-FiraSans {
+  font-family: "Fira Sans", sans-serif;
+}
+.main-input-GochiHand,
+.adminSocial-name-GochiHand,
+.main-text-GochiHand,
+.main-subname-GochiHand,
+.main-name-GochiHand {
+  font-family: "Gochi Hand", sans-serif;
+}
+
+.main-input-Kalam,
+.adminSocial-name-Kalam,
+.main-text-Kalam,
+.main-subname-Kalam,
+.main-name-Kalam {
+  font-family: "Kalam", cursive;
+}
+
+.main-input-KaushanScript,
+.adminSocial-name-KaushanScript,
+.main-text-KaushanScript,
+.main-subname-KaushanScript,
+.main-name-KaushanScript {
+  font-family: "Kaushan Script", cursive;
+}
+
+.main-input-Lalezar,
+.adminSocial-name-Lalezar,
+.main-text-Lalezar,
+.main-subname-Lalezar,
+.main-name-Lalezar {
+  font-family: "Lalezar", cursive;
+}
+
+.main-input-Lato,
+.adminSocial-name-Lato,
+.main-text-Lato,
+.main-subname-Lato,
+.main-name-Lato {
+  font-family: "Lato", cursive;
+}
+.main-input-LobsterTwo,
+.adminSocial-name-LobsterTwo,
+.main-text-LobsterTwo,
+.main-subname-LobsterTwo,
+.main-name-LobsterTwo {
+  font-family: "Lobster Two", cursive;
+}
+.main-input-LuckiestGuy,
+.adminSocial-name-LuckiestGuy,
+.main-text-LuckiestGuy,
+.main-subname-LuckiestGuy,
+.main-name-LuckiestGuy {
+  font-family: "Luckiest Guy", cursive;
+}
+.main-input-MarckScript,
+.adminSocial-name-MarckScript,
+.main-text-MarckScript,
+.main-subname-MarckScript,
+.main-name-MarckScript {
+  font-family: "Marck Script", cursive;
+}
+.main-input-MerriWeather,
+.adminSocial-name-MerriWeather,
+.main-text-MerriWeather,
+.main-subname-MerriWeather,
+.main-name-MerriWeather {
+  font-family: "Merriweather", serif;
+}
+.main-input-Monoton,
+.adminSocial-name-Monoton,
+.main-text-Monoton,
+.main-subname-Monoton,
+.main-name-Monoton {
+  font-family: "Monoton", cursive;
+}
+.main-input-Neucha,
+.adminSocial-name-Neucha,
+.main-text-Neucha,
+.main-subname-Neucha,
+.main-name-Neucha {
+  font-family: "Neucha", cursive;
+}
+.main-input-Neuton,
+.adminSocial-name-Neuton,
+.main-text-Neuton,
+.main-subname-Neuton,
+.main-name-Neuton {
+  font-family: "Neuton", cursive;
+}
+.main-input-Orbitron,
+.adminSocial-name-Orbitron,
+.main-text-Orbitron,
+.main-subname-Orbitron,
+.main-name-Orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+.main-input-Oswald,
+.adminSocial-name-Oswald,
+.main-text-Oswald,
+.main-subname-Oswald,
+.main-name-Oswald {
+  font-family: "Oswald", cursive;
+}
+.main-input-PlayfairDisplay,
+.adminSocial-name-PlayfairDisplay,
+.main-text-PlayfairDisplay,
+.main-subname-PlayfairDisplay,
+.main-name-PlayfairDisplay {
+  font-family: "Playfair Display", serif;
+}
+.main-input-PtSerif,
+.adminSocial-name-PtSerif,
+.main-text-PtSerif,
+.main-subname-PtSerif,
+.main-name-PtSerif {
+  font-family: "PT Serif", serif;
+}
+.main-input-Raleway,
+.adminSocial-name-Raleway,
+.main-text-Raleway,
+.main-subname-Raleway,
+.main-name-Raleway {
+  font-family: "Raleway", cursive;
+}
+.main-input-Roboto,
+.adminSocial-name-Roboto,
+.main-text-Roboto,
+.main-subname-Roboto,
+.main-name-Roboto {
+  font-family: "Roboto", cursive;
+}
+.main-input-RobotoCondensed,
+.adminSocial-name-RobotoCondensed,
+.main-text-RobotoCondensed,
+.main-subname-RobotoCondensed,
+.main-name-RobotoCondensed {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.main-input-RobotoMono,
+.adminSocial-name-RobotoMono,
+.main-text-RobotoMono,
+.main-subname-RobotoMono,
+.main-name-RobotoMono {
+  font-family: "Roboto Mono", monospace;
+}
+.main-input-RobotoSlab,
+.adminSocial-name-RobotoSlab,
+.main-text-RobotoSlab,
+.main-subname-RobotoSlab,
+.main-name-RobotoSlab {
+  font-family: "Roboto Slab", cursive;
+}
+.main-input-TitilliumWeb,
+.adminSocial-name-TitilliumWeb,
+.main-text-TitilliumWeb,
+.main-subname-TitilliumWeb,
+.main-name-TitilliumWeb {
+  font-family: "Titillium Web", sans-serif;
+}
+.main-input-Ubuntu,
+.adminSocial-name-Ubuntu,
+.main-text-Ubuntu,
+.main-subname-Ubuntu,
+.main-name-Ubuntu {
+  font-family: "Ubuntu", cursive;
+}

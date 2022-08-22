@@ -1,0 +1,225 @@
+.analytic-top,
+.analytic-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.analytic-top {
+  width: 810px;
+  margin-left: 40px;
+}
+
+.analytic-text {
+  width: 272px;
+  height: 32px;
+
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #01384d;
+}
+
+.analytic-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+
+  color: #01384d;
+}
+
+.analytic-subname {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #01384d;
+}
+
+.analytic-header {
+  margin-left: 35px;
+}
+
+.analytic-link {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+  padding: 0px;
+
+  width: 178px;
+  height: 40px;
+
+  background: #01384d;
+  border-radius: 20px;
+}
+
+.analytic-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.analytic-medium {
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 16px;
+
+  margin: 30px 0;
+  margin-left: 40px;
+}
+.analytic-blok {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.analytic-box {
+  width: 50%;
+
+  height: 170px;
+}
+.analytic-text {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  width: 400px;
+  height: 54px;
+  padding: 10px;
+  padding-left: 30px;
+  color: #01384d;
+}
+
+.analytic-box {
+  border-top: 1px solid rgba(0, 0, 0, 0.45);
+}
+.analytic-box:nth-child(1) {
+  border-right: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.analytic-number {
+  font-family: "Clarika Geometric";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.analytic-subtext {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  text-align: center;
+  margin-top: 8px;
+
+  color: #8898a1;
+}
+.analytic-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.analytic-footer {
+  margin-left: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 16px;
+  /* padding: 10px; */
+}
+
+.analytic-havola {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 10px;
+  padding-left: 20px;
+
+  color: #01384d;
+}
+.analytic-links span {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #01384d;
+
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.analytic-links p {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  padding-top: 5px;
+  color: #8898a1;
+
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.analytic-links {
+  width: 100%;
+}
+.analytic-item {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.45);
+  /* margin: 18px 0; */
+  padding: 6px 10px;
+  padding-left: 20px;
+}
+
+.analytic-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.analytic-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.analytic-count {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.analytic-links a {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8898a1;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.analytic-links span {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #01384d;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}

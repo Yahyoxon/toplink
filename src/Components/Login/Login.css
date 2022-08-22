@@ -1,0 +1,24 @@
+.register-found {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration-style: solid;
+}
+
+/* .login-page .register{
+    padding-bottom: 180px;
+} */
+
+.register-btn a {
+  color: white;
+}
+.register-box span p {
+  color: red;
+}

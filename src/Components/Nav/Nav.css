@@ -1,0 +1,139 @@
+.nav .container,
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  padding: 18px 0;
+  background: rgba(87, 93, 251, 0.05);
+  position: absolute;
+  width: 100%;
+  /* z-index: 1; */
+}
+
+.nav-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #182f43;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  padding: 10px;
+}
+
+.nav-item:nth-child(3) .nav-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f7f7ff;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: 0.3s;
+}
+
+.nav-item:nth-child(4) .nav-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  border-radius: 8px;
+  padding: 12px 24px;
+  border: 2px solid #673ab7;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  transition: 0.3s;
+  background-clip: text;
+}
+
+.nav-item {
+  margin: 0px 20px;
+}
+.nav-item:nth-child(3) {
+  margin-right: 0;
+  margin-left: 40px;
+}
+.nav-link:hover {
+  color: #673ab7;
+  border-radius: 8px;
+  border: 2px solid #673ab7;
+}
+
+.nav-item:nth-child(3) .nav-link:hover {
+  background: white;
+  color: #673ab7;
+  border: 2px solid #673ab7;
+}
+
+.nav-item:nth-child(4) .nav-link:hover {
+  background: #673ab7;
+  color: white;
+  border: 2px solid white;
+}
+
+.menu-btn {
+  border: none;
+  display: none;
+  background-color: transparent;
+}
+
+.nav-items {
+  margin: 25px 0;
+}
+
+
+
+/* .navs-modal{
+    padding: 30px;
+} */
+
+.close-menus{
+  /* background-color: transparent; */
+  margin-left: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  z-index: 1000;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+}
+
+.close-menu{
+  border: none;
+  background-color: transparent;
+  margin-left: 220px;
+}
+
+
+.close-img{
+  width: 30px;
+  height: 30px;
+}
+
+.nav-items .nav-link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #182f43;
+  padding: 8px 5px;
+}
+
+
+
+@media (max-width: 420px) {
+  .container {
+    width: 300px;
+  }
+  .ReactModal__Content {
+    width: 80%;
+    padding: 38px !important;
+  }
+}

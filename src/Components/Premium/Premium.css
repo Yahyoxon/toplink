@@ -1,0 +1,342 @@
+.premium-text {
+  width: 151px;
+  height: 19px;
+
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #8898a1;
+}
+
+.premium-title {
+  width: 539px;
+  height: 48px;
+
+  text-overflow: ellipsis;
+  white-space: wrap;
+  overflow: hidden;
+  /* background-color: red; */
+
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  margin: 25px 0;
+
+  color: #01384d;
+
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.premium-item {
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  width: 693px;
+  height: 299px;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 35px 0;
+}
+
+.premium-item:nth-child(1) {
+  margin-top: 0;
+}
+
+.premium-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 25px 0;
+}
+
+.premium-btn {
+  /* margin-top: 35px; */
+  cursor: pointer;
+  width: 178px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  transition: 0.3s;
+
+  color: #ffffff;
+  border: 1.5px solid transparent;
+  background: #01384d;
+  border-radius: 20px;
+}
+
+.premium-btn:hover {
+  background-color: white;
+  color: #01384d;
+  border: 1.5px solid #01384d;
+}
+
+.premium-list {
+  margin-left: 60px;
+}
+
+.premium-modal {
+  background-color: white;
+  width: 1186px;
+  height: 638px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translate(15%, 7%);
+  border: 0.1px solid #051922;
+}
+
+.ReactModal__Content .ReactModal__Content--after-open{
+    padding: 0;
+  }
+
+.premium-blok {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.premium-section {
+  background: #ffffff;
+  border: 1px solid #ececf1;
+  border-radius: 20px;
+  width: 320px;
+  height: 500px;
+  margin: 10px;
+  padding: 10px 12px;
+  transition: 0.3s;
+}
+
+.premium-section:hover {
+  /* background-color: #512DA8; */
+  color: white;
+}
+
+
+
+.pre-title {
+  width: 162px;
+  height: 31px;
+
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #01384d;
+}
+
+.premium-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.premium-price {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 65px;
+  text-align: center;
+  color: #01384d;
+}
+
+.premium-subtext {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+
+  text-align: center;
+  padding-left: 8px;
+  color: #96a5ae;
+}
+
+.premium-info {
+  width: 240px;
+  max-height: 88px;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  overflow: hidden;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #8898a1;
+}
+
+.pre-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pre-subinfo {
+  width: 260px;
+  margin-left: 11px;
+  max-height: 88px;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  overflow: hidden;
+
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* background-color: red; */
+
+  color: #01384d;
+}
+
+.pre-item {
+  margin: 17px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pre-top {
+  height: 170px;
+}
+
+.pre-list {
+  padding: 10px 12px;
+  height: 200px;
+  /* background-color: green; */
+}
+
+.pre-btn {
+  border: 2px solid #673ab7;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  width: 250px;
+  height: 56px;
+  margin-top: 30px;
+  margin-left: 15px;
+  border-radius: 12px;
+}
+
+.premium-link:nth-child(1) {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border-radius: 50px;
+  text-align: center;
+  padding: 8px 40px;
+  color: #ffffff;
+}
+
+.premium-link:nth-child(2) {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  background-color: white;
+  padding: 8px 40px;
+  color: #01384d;
+}
+
+.premium-header {
+  display: flex;
+  margin: 15px 0;
+  background: white;
+  box-shadow: 0px 12px 40px rgba(187, 179, 209, 0.24);
+  border-radius: 50px;
+  padding: 2px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.pre-item {
+  display: flex;
+}
+
+.pre-icons {
+  width: 18px;
+  height: 11px;
+  margin-top: 5px;
+}
+
+/* div ~ p{
+    background-color: #673AB7;
+    color: white;
+} */
+
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.premium-swiper {
+  width: 1100px;
+  /* height: 600px; */
+}
+
+.modal {
+  /* height: 96%; */
+}
+
+.swiper-button-next,
+.swiper-button-next::after,
+.swiper-button-prev,
+.swiper-button-prev::after {
+  display: none;
+}

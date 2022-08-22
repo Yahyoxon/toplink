@@ -1,0 +1,1864 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App__img {
+  width: 150px;
+}
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+}
+@font-face {
+  font-family: "Clarika Geometric";
+  src: url("../src/Assets/Fonts/d3148d46b600396e298caa894207c0b3.eot"); /* IE9*/
+  src: url("../src/Assets/Fonts/d3148d46b600396e298caa894207c0b3.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../src/Assets/Fonts/d3148d46b600396e298caa894207c0b3.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("../src/Assets/Fonts/d3148d46b600396e298caa894207c0b3.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("../src/Assets/Fonts/d3148d46b600396e298caa894207c0b3.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("../src/Assets/Fonts/d3148d46b600396e298caa894207c0b3.svg#Clarika Geometric Regular")
+      format("svg"); /* iOS 4.1- */
+}
+body {
+  font-family: "Clarika Geometric";
+}
+ul,
+ol {
+  list-style: none;
+}
+.account-first {
+  width: 571px;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.admin-page {
+  background-image: url("../src/Assets/Img/dashboardBg.png");
+  background-repeat: no-repeat;
+  background-position: top 100% left 100%;
+  background-size: 200px;
+}
+
+.main {
+  min-height: 83.5vh;
+}
+
+.mains-admin {
+  justify-content: center;
+  min-height: 80vh;
+}
+
+@media (max-width: 1450px) {
+  .container {
+    width: 1280px;
+  }
+  .mains-admin {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 1290px) {
+  .container {
+    width: 1170px;
+  }
+  .mains-admin {
+    width: 70%;
+  }
+
+  .ReactModal__Overlay .premium-modal {
+    background-color: white;
+    width: 1099px;
+    height: 596px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(4%, 5%);
+  }
+}
+
+@media (max-width: 1180px) {
+  .container {
+    width: 1000px;
+  }
+  .mains-admin {
+    width: 70%;
+  }
+  .main .edit-main {
+    margin-left: 41px;
+  }
+
+  .ReactModal__Overlay .premium-modal {
+    background-color: white;
+    width: 972px;
+  }
+
+  .premium-modal .premium-section {
+    width: 305px;
+  }
+
+  .main .analytic-top,
+  .main .analytic-medium,
+  .main .analytic-footer {
+    margin-left: 15px;
+  }
+
+  .main .analytic-top {
+    width: 634px;
+  }
+
+  .main .refer {
+    margin-left: 35px;
+  }
+
+  .main .refer-bottom {
+    width: 670px;
+  }
+
+  .main .refer-top {
+    width: 670px;
+  }
+
+  .main .refer-medium {
+    width: 670px;
+  }
+
+  body .account-shartnoma {
+    margin-left: 22px;
+  }
+  .account-shartnoma .account-shartnoma-box {
+    width: 650px;
+  }
+  body .settings,
+  body .special-color,
+  body .special-blok,
+  body .custom-style {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .container {
+    width: 900px;
+  }
+
+  .main .settings {
+    margin-left: 21px;
+  }
+
+  .main .edit-main {
+    margin-left: 15px;
+  }
+
+  .main .premium-item {
+    width: 533px;
+  }
+
+  .premium-modal .premium-section {
+    width: 276px;
+    height: 513px;
+  }
+
+  .ReactModal__Overlay .premium-modal {
+    background-color: white;
+    width: 895px;
+    transform: translate(2%, 4%);
+  }
+
+  .premium-modal .pre-btn {
+    width: 204px;
+    height: 42px;
+    margin-top: 66px;
+    margin-left: 36px;
+  }
+
+  .swiper-backface-hidden .swiper-slide {
+    height: 89%;
+    width: 30%;
+  }
+
+  .modal {
+    width: 100%;
+    border-radius: 0;
+    height: 100%;
+  }
+
+  .modalContainer.show .modal {
+    height: 100%;
+  }
+
+  .main .analyticYangilash {
+    margin-left: 35px;
+  }
+
+  .main .refer-top {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 588px;
+    height: 40px;
+  }
+
+  .main .refer-medium,
+  .main .refer-bottom,
+  .main .refer-top {
+    width: 588px;
+  }
+
+  .main .refer {
+    margin-left: 15px;
+  }
+
+  .main .refer-btn {
+    left: 68.5%;
+  }
+  .account .account-first {
+    width: 571px;
+    margin-left: 15px;
+  }
+
+  .account .account-input {
+    width: 504px;
+  }
+  .account .account-span .form-control {
+    width: 500px;
+  }
+  .account-shartnoma .account-shartnoma-box {
+    width: 525px;
+  }
+  .accountKarta .accountKarta-first {
+    width: 522px;
+  }
+  .accountKarta .accountKarta-input {
+    width: 456px;
+  }
+  .premiumDomen .premiumDomen-first,
+  .premiumDomen .premiumDomen-second,
+  .premiumDomen .premiumDomen-third {
+    width: 547px;
+  }
+  .premiumDomen .premiumDomen-input {
+    width: 478px;
+  }
+  .premiumDomen .premiumDomen-blok .premiumDomen-input {
+    width: 209px;
+  }
+  body .settings,
+  body .special-color,
+  body .special-blok,
+  body .custom-style {
+    margin-left: 0px;
+  }
+  .admin-page .main-right {
+    margin-left: 32px;
+  }
+}
+
+@media (max-width: 920px) {
+  .container {
+    width: 800px;
+  }
+
+  .main-form .main-input {
+    width: 500px;
+  }
+
+  .main-form .main-btn {
+    position: absolute;
+    top: 5.5%;
+    left: 82%;
+    background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+    border-radius: 16px;
+    border: none;
+    width: 63px;
+    height: 49px;
+  }
+
+  .main-bottom .main-subname {
+    font-size: 16px;
+  }
+
+  .main .edit-footer,
+  .main .edit-add {
+    width: 520px;
+  }
+
+  .main .social-link {
+    width: 507px;
+  }
+
+  .main .add-input {
+    width: 440px;
+  }
+
+  .edit-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main .premium-title {
+    font-size: 16px;
+    line-height: 24px;
+    width: 410px;
+  }
+
+  .main .premium-item {
+    width: 471px;
+  }
+
+  .main .premium-list {
+    margin-left: 33px;
+  }
+
+  .premium-modal .premium-section {
+    width: 256px;
+    margin: 0;
+  }
+
+  .premium-modal .pre-btn {
+    width: 204px;
+    height: 42px;
+    margin-top: 68px;
+    margin-left: 13px;
+  }
+
+  .ReactModal__Overlay .premium-modal {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 790px;
+  }
+
+  .premium-modal .premium-section {
+    width: 256px;
+    margin: 0px 3px;
+  }
+
+  .premium-modal .premium-header {
+    width: 250px;
+    margin: 12px auto;
+  }
+
+  .premium-modal .pre-subinfo {
+    font-size: 14px;
+  }
+
+  .main .analytic-top {
+    width: 529px;
+  }
+
+  .main .analyticYangilash {
+    margin-left: 8px;
+  }
+
+  .main .analyticYangilash-header {
+    width: 539px;
+  }
+
+  .main .analyticYangilash-input,
+  .main .analyticYangilash-btn {
+    width: 452px;
+  }
+
+  .main .refer-medium,
+  .main .refer-bottom,
+  .main .refer-top {
+    width: 488px;
+  }
+
+  .main .refer {
+    margin-left: 10px;
+  }
+
+  .main .refer-btn {
+    left: 68.5%;
+  }
+
+  .main .refer-top {
+    font-size: 11px;
+  }
+
+  .main .refer-input {
+    width: 428px;
+  }
+
+  .main .refer-name,
+  .main .refer-time,
+  .main .refer-state {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .main .refer-state,
+  .main .refer-box2 {
+    width: 76px;
+  }
+
+  .main .refer-items {
+    font-size: 11px;
+  }
+  .container .account {
+    margin-left: 17px;
+  }
+  .account .account-first {
+    width: 485px;
+    margin-left: 0;
+  }
+  .account .account-input {
+    width: 404px;
+  }
+  .account .account-span .form-control {
+    width: 404px;
+  }
+  body .accountKarta {
+    margin-left: 19px;
+  }
+  .premiumDomen .premiumDomen-first,
+  .premiumDomen .premiumDomen-second,
+  .premiumDomen .premiumDomen-third {
+    width: 447px;
+  }
+  .premiumDomen .premiumDomen-input {
+    width: 378px;
+  }
+  .premiumDomen .premiumDomen-blok .premiumDomen-input {
+    width: 159px;
+  }
+  body .settings,
+  body .special-color,
+  body .special-blok,
+  body .custom-style {
+    width: 500px;
+  }
+  .color-list {
+    flex-wrap: wrap;
+  }
+  .special-font .special-select {
+    width: 450px;
+  }
+  .custom-style .custom-button {
+    margin-left: 361px;
+  }
+  body .special-color,
+  body .special-blok,
+  body .custom-style {
+    margin-left: 22px;
+  }
+  .admin-page .adminSocial-link {
+    width: 393px;
+  }
+
+  .edit-main .edit-footer .css-lx4kgr {
+    width: 88.3%;
+  }
+
+  .edit-main .edit-footer .css-1ujykiq-MuiButtonBase-root-MuiTab-root {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .edit-footer .MuiTypography-body1 {
+    width: 100%;
+  }
+  .MuiTypography-root .MuiBox-root div .react-swipeable-view-container {
+    width: 100%;
+  }
+  .edit-main .edit-footer .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 213px;
+  }
+  .edit-footer .schedule-box {
+    width: 480px;
+  }
+}
+
+@media (max-width: 820px) {
+  .container {
+    width: 700px;
+  }
+
+  .main-form .main-input{
+    width: 440px; 
+  }
+
+  .admin-page{
+    background-position: top 100% left 98%;
+  }
+
+  .edit-footer .css-1ujykiq-MuiButtonBase-root-MuiTab-root {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .admin-page .main-right {
+    margin-left: 10px;
+  }
+
+  .main .settings-item {
+    width: 33%;
+  }
+
+  .main .edit-footer,
+  .main .edit-add {
+    width: 454px;
+  }
+
+  .main .social-link {
+    width: 430px;
+  }
+
+  .main .edit-main {
+    margin-left: -6px;
+  }
+
+  .main .add-input {
+    width: 423px;
+  }
+
+  .main .edit-textarea,
+  .main .edit-input {
+    width: 423px;
+  }
+
+  .main .premium-item {
+    width: 410px;
+    height: 250px;
+  }
+
+  .main .premium-title {
+    font-size: 15px;
+    line-height: 19px;
+    width: 354px;
+    height: 38px;
+    margin: 15px 0;
+  }
+
+  .ReactModal__Overlay .premium-modal {
+    height: 100%;
+    width: 690px;
+  }
+
+  .premium-modal .premium-section {
+    width: 221px;
+  }
+
+  .premium-modal .pre-title {
+    width: 143px;
+    height: 27px;
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 31px;
+  }
+
+  .premium-modal .pre-btn {
+    width: 134px;
+    height: 34px;
+    margin-top: 77px;
+    margin-left: 19px;
+  }
+
+  .premium-modal .premium-price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .premium-modal .premium-span {
+    height: 54px;
+  }
+
+  .premium-modal .pre-list {
+    height: 268px;
+    padding: 0;
+  }
+
+  .premium-modal .pre-subinfo {
+    max-height: 99px;
+  }
+
+  .premium-modal .pre-btn {
+    margin-top: 0px;
+    margin-left: 32px;
+  }
+
+  .ReactModal__Overlay .premium-modal {
+    height: 93%;
+    width: 688px;
+  }
+
+  .main .analytic-top {
+    width: 429px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main .analytic-header {
+    margin-left: 7px;
+  }
+
+  .main .analytic-link {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 0px 8px;
+    width: 177px;
+  }
+
+  .main .analytic-subname {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .main .analyticYangilash-header {
+    width: 439px;
+  }
+
+  .main .analyticYangilash-input,
+  .main .analyticYangilash-btn {
+    width: 352px;
+  }
+
+  .main .refer-input {
+    width: 378px;
+    /* width: 450px; */
+    padding-left: 10px;
+  }
+
+  .main .refer-name,
+  .main .refer-time,
+  .main .refer-state {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .main .refer-state,
+  .main .refer-box2 {
+    width: 76px;
+  }
+
+  .main .refer-items {
+    font-size: 11px;
+  }
+  .main .refer-btn {
+    left: 65.5%;
+  }
+  .main .refer-top {
+    width: 445px;
+  }
+
+  .main .refer-medium,
+  .main .refer-bottom,
+  .main .refer-top {
+    width: 426px;
+  }
+  .refer-left {
+    width: 382px;
+  }
+  .account .account-first {
+    width: 385px;
+    margin-left: 0;
+  }
+  .account .account-input {
+    width: 324px;
+  }
+  .account .account-span .form-control {
+    width: 324px;
+  }
+  .account .account-top {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .account-shartnoma .account-shartnoma-box {
+    width: 422px;
+  }
+
+  .accountKarta .accountKarta-first {
+    width: 414px;
+  }
+  .accountKarta .accountKarta-input {
+    width: 361px;
+  }
+  .premiumDomen .premiumDomen-first,
+  .premiumDomen .premiumDomen-second,
+  .premiumDomen .premiumDomen-third {
+    width: 411px;
+  }
+  .premiumDomen .premiumDomen-input {
+    width: 308px;
+  }
+  .premiumDomen .premiumDomen-blok .premiumDomen-input {
+    width: 139px;
+  }
+  body .premiumDomen {
+    margin-left: 29px;
+  }
+  .premiumDomen .premiumDomen-input {
+    font-size: 10px;
+  }
+
+  body .settings,
+  body .special-color,
+  body .special-blok,
+  body .custom-style {
+    width: 400px;
+  }
+  .color-list {
+    flex-wrap: wrap;
+  }
+  .special-font .special-select {
+    width: 350px;
+  }
+  .custom-style .custom-button {
+    margin-left: 361px;
+  }
+  body .special-color,
+  body .special-blok,
+  body .custom-style {
+    margin-left: 2px;
+  }
+
+  .special .special-box {
+    width: 239px;
+  }
+  .custom-style .custom-button {
+    margin-left: 278px;
+  }
+  .special .special-find {
+    width: 196px;
+    /* font-size: 15px; */
+  }
+  #modal .search-modal {
+    width: 670px;
+  }
+  .search-modal .search-img {
+    width: 142px;
+  }
+  .search-modal .search-title {
+    position: absolute;
+    top: 75%;
+    left: 19%;
+  }
+  .admin-page .main-blok {
+    margin-left: 3px;
+  }
+  .admin-page .main-right {
+    margin-left: 0;
+  }
+  body .edit-footer .css-heg063-MuiTabs-flexContainer {
+    width: 80%;
+  }
+  .edit-footer .MuiAccordionDetails-root {
+    padding-left: 0;
+  }
+
+  .edit-footer .schedule-box {
+    width: 428px;
+  }
+
+  .main-bottom {
+    width: 400px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 600px;
+  }
+
+  .dashboard {
+    display: none;
+  }
+
+  .main-right,
+  .main-bottom,
+  .main-blok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-right {
+    width: 100% !important;
+  }
+
+  .main-bottom .main-name {
+    width: 260px;
+    text-align: center;
+  }
+
+  .main-bottom .main-subname {
+    width: 260px;
+    text-align: center;
+  }
+
+  .main-bottom .main-avatar {
+    width: 82px;
+    height: 82px;
+  }
+
+  .main-form .main-btn {
+    position: absolute;
+    top: 5.5%;
+    left: 82%;
+  }
+
+  .main .edit-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main .social-link {
+    width: 490px;
+  }
+
+  .main .add-input {
+    width: 500px;
+  }
+
+  .main .edit-footer,
+  .main .edit-add,
+  .main .edit-input {
+    width: 520px;
+  }
+
+  .main .edit-main {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .main .edit-form {
+    margin-left: 0;
+  }
+
+  .main .premium-list {
+    margin-left: 0;
+  }
+
+  .premium {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .special .special-color,
+  body .special-blok,
+  body .custom-style {
+    margin-left: 21px;
+  }
+
+  #modal .search-modal {
+    width: 570px;
+  }
+  .search-modal .search-img {
+    width: 112px;
+    height: 150px;
+  }
+  .search-modal .search-title {
+    position: absolute;
+    top: 75%;
+    left: 14%;
+  }
+  .edit-main .edit-footer .css-lx4kgr {
+    width: 100%;
+  }
+  .edit-footer .schedule-box {
+    width: 500px;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 500px;
+  }
+  .mains-admin {
+    width: 100%;
+  }
+  .ReactModal__Overlay .admin-header-modal {
+    width: 46%;
+  }
+
+  .main .social-link {
+    width: 390px;
+  }
+
+  .main .add-input {
+    width: 400px;
+  }
+
+  .main .analytic-top {
+    display: flex;
+    flex-direction: column;
+    margin-left: -25px;
+  }
+
+  .main .analytic-link {
+    margin-top: 5px;
+  }
+
+  .main .edit-footer,
+  .main .edit-add,
+  .main .edit-input {
+    width: 420px;
+  }
+  .edit-main .edit-footer .css-lx4kgr {
+    width: 81.3%;
+  }
+  .edit-footer .css-1ujnqem-MuiTabs-root {
+    width: 414px;
+  }
+  .edit-footer .css-1ujykiq-MuiButtonBase-root-MuiTab-root {
+    min-width: 83px;
+  }
+  .edit-footer .schedule-box {
+    width: 400px;
+  }
+
+  .edit-main .edit-footer .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 185px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+
+  .ReactModal__Overlay .admin-header-modal {
+    width: 57%;
+  }
+
+  .main .settings-item {
+    width: 50%;
+  }
+
+  .main .social-link {
+    width: 360px;
+  }
+
+  .main .add-input {
+    width: 360px;
+  }
+
+  .main .edit-footer,
+  .main .edit-add,
+  .main .edit-input {
+    width: 360px;
+  }
+
+  .main .add-btn {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .main .analytic-top,
+  .main .analytic-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .admin-page {
+    background-position: top 100% left 98%;
+  }
+
+  .main .analytic-subname {
+    display: none;
+  }
+
+  .main .analytic-link {
+    padding: 12px 26px;
+  }
+
+  .main .analytic-right {
+    margin-top: 18px;
+  }
+
+  .main .analytic-top {
+    width: 100%;
+  }
+
+  .main .analyticYangilash-header {
+    width: 359px;
+  }
+
+  .main .analyticYangilash-input,
+  .main .analyticYangilash-btn {
+    width: 302px;
+  }
+
+  .main .analyticYangilash-list {
+    padding: 15px 16px;
+  }
+
+  .main .analyticYangilash-text {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .main .analyticYangilash-money span {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .main .analyticYangilash-title {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .main .refer-btn {
+    left: 65.5%;
+  }
+  .main .refer-top {
+    width: 345px;
+    font-size: 9px;
+  }
+  .main .refer-input {
+    width: 345px;
+  }
+  .main .refer-btn {
+    left: 62.5%;
+  }
+  .main .refer-medium,
+  .main .refer-bottom,
+  .main .refer-top {
+    width: 386px;
+  }
+  .refer-left {
+    width: 282px;
+  }
+  .main .refer-name {
+    margin: 0;
+    padding: 0;
+  }
+  .account .account-first {
+    width: 415px;
+    margin-left: 0;
+  }
+  .account .account-input {
+    width: 354px;
+  }
+  .account .account-span .form-control {
+    width: 354px;
+  }
+  .container .account {
+    margin: 0;
+  }
+  .account-shartnoma .account-shartnoma-box {
+    width: 370px;
+  }
+  .account-shartnoma .account-shartnoma-subtitle {
+    font-size: 18px;
+  }
+  .account-shartnoma-box:nth-child(2) .account-shartnoma-subtitle {
+    padding-left: 30px;
+  }
+  body .accountKarta {
+    margin: 0;
+  }
+  body .premiumDomen {
+    margin-left: 0;
+  }
+  /* .search-list .search-item{
+  width: 45%;
+} */
+  .search-list .search-img {
+    width: 90px;
+    height: 90px;
+  }
+  .search-modal .search-title {
+    font-size: 8px;
+    height: 17px;
+    padding: 2px 5px;
+  }
+  #modal .search-modal {
+    width: 419px;
+    min-height: 218px;
+  }
+  .main .add-input {
+    width: 301px;
+  }
+  .edit-main .edit-footer .css-lx4kgr {
+    width: 70.3%;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: 300px;
+  }
+
+  .admin-page {
+    background-image: none;
+  }
+
+  .admin-footer {
+    display: none;
+  }
+
+
+  .main-form .main-input {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #699efa;
+    width: 340px;
+    margin-left: 0px;
+    height: 40px;
+  }
+
+  .main-form .main-btn {
+    width: 50px;
+    height: 35px;
+    left:71%;
+  }
+
+  .main-btn .copy-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .ReactModal__Overlay .admin-header-modal {
+    width: 75%;
+    padding: 15px 10px !important;
+  }
+
+  .main .social-link {
+    width: 260px;
+  }
+
+  .main .add-input {
+    width: 222px;
+    font-size: 10px;
+  }
+
+  .main .edit-footer,
+  .main .edit-add,
+  .main .edit-input {
+    width: 260px;
+  }
+
+  .main .edit-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #01384d;
+    margin-left: 7px;
+  }
+
+  .main .edit-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px 0;
+  }
+
+  .edit-item {
+    width: 30%;
+  }
+
+  .main .social-link {
+    padding: 0px 8px;
+
+    height: 47px;
+    padding-right: 5px;
+  }
+
+  .main .social-icon {
+    width: 69px !important;
+    height: 24px !important;
+    padding: 0 !important;
+  }
+  .social-container .social-svg {
+    width: 81% !important;
+    height: 69% !important;
+    top: 3px !important;
+    left: 2px !important;
+    padding: 0 !important;
+  }
+  .main .social-name {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0px 9px;
+  }
+
+  .main .premium-item {
+    width: 278px;
+    height: 177px;
+  }
+
+  .main .premium-title {
+    font-size: 14px;
+    line-height: 19px;
+    width: 292px;
+    height: 38px;
+    margin: 10px 0;
+  }
+
+  .main .premium-box {
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .main .premium-item {
+    padding: 10px;
+  }
+
+  .main .premium-text {
+    font-size: 14px;
+    padding-top: 9px;
+  }
+
+  .main .premium-btn {
+    cursor: pointer;
+    width: 133px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 8px;
+  }
+
+  .mySwiper .premium-section {
+    width: 244px;
+    margin: 0;
+    border: 1px solid #673ab7;
+  }
+  .mains-admin .edit-footer .edit-add {
+    border-radius: 8px 0px 0px 0px !important;
+    width: 100%;
+    height: 56px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 100% 97%;
+  }
+  .swiper-backface-hidden .swiper-slide {
+    width: 25.3% !important;
+    margin: 0 !important;
+  }
+
+  .mySwiper .pre-btn {
+    width: 196px;
+    height: 34px;
+    margin-top: 26px;
+  }
+
+  .mySwiper .pre-list {
+    height: 214px;
+  }
+
+  .main .analytic-text {
+    width: 290px;
+    font-size: 16px;
+  }
+
+  .main .analytic-footer,
+  .main .analytic-medium,
+  .main .analytic-top {
+    margin-left: 0;
+  }
+
+  .main .analytic-havola {
+    font-size: 16px;
+  }
+
+  .main .analytic-number {
+    font-size: 24px;
+    line-height: 19px;
+  }
+
+  .main .analytic-subtext {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 3px;
+  }
+
+  .main .analytic-links p {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    padding-top: 0;
+  }
+
+  .main .analytic-links span {
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+  .main .analyticYangilash-header {
+    width: 269px;
+  }
+
+  .main .analyticYangilash-input,
+  .main .analyticYangilash-btn {
+    width: 202px;
+  }
+
+  .main .analyticYangilash-top {
+    padding: 11px;
+  }
+
+  .main .analyticYangilash-top span {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    color: #ffffff;
+    background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+    border-radius: 50%;
+    padding: 4px;
+    width: 24px;
+    height: 22px;
+  }
+
+  .main .analyticYangilash-list {
+    padding: 9px 9px;
+  }
+
+  .main .analyticYangilash-header {
+    height: 145px;
+  }
+
+  .main .analyticYangilash-text {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .main .analyticYangilash-money span {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+  }
+
+  .mains-admin {
+    margin-left: 10px;
+  }
+
+  .main .analyticYangilash-money p {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .main .analyticYangilash-span {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 14px;
+  }
+
+  .main .analyticYangilash-input,
+  .main .analyticYangilash-btn {
+    width: 240px;
+  }
+
+  .main .analyticYangilash-btn {
+    margin-left: 17px;
+    margin-top: 16px;
+  }
+  .main .refer-top {
+    width: 275px;
+    font-size: 7px;
+    display: none;
+  }
+  .main .refer-input {
+    width: 255px;
+  }
+  .main .refer-btn {
+    left: 52.5%;
+  }
+  .main .refer-medium,
+  .main .refer-bottom,
+  .main .refer-top {
+    width: 286px;
+  }
+  .refer-left {
+    width: 182px;
+  }
+  .main .refer-name {
+    margin: 0;
+    padding: 0;
+  }
+  .main .refer-name,
+  .main .refer-time,
+  .main .refer-state {
+    font-size: 8px;
+  }
+  .main .refer-right {
+    width: 100px;
+  }
+  .main .refer-item {
+    padding: 12px 4px;
+  }
+  .main .refer-box1,
+  .main .refer-box2,
+  .main .refer-left {
+    font-size: 9px;
+  }
+  .main .refer-btn {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 29px;
+    position: absolute;
+    top: 8%;
+    left: 69.5%;
+    color: #ffffff;
+    border: none;
+    padding: 7px 5px;
+  }
+  .main .refer-input {
+    width: 239px;
+    font-size: 10px;
+  }
+  .main .refer-name {
+    padding-left: 3px;
+  }
+  .main .refer-title,
+  .main .refer-box {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .main .refer-medium {
+    height: 126px;
+  }
+
+  .account .account-first {
+    width: 305px;
+    margin-left: 0;
+  }
+  .account .account-input {
+    width: 254px;
+  }
+  .account .account-span .form-control {
+    width: 254px;
+  }
+  .container .account {
+    margin: 0;
+  }
+  .account .account-headers {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14px;
+  }
+  body .account-shartnoma {
+    margin-left: 0;
+  }
+  .account-shartnoma .account-shartnoma-box {
+    width: 294px;
+  }
+  .account-shartnoma .account-shartnoma-btn {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 122px;
+  }
+
+  .accountKarta .accountKarta-first {
+    width: 300px;
+  }
+  .accountKarta .accountKarta-input {
+    width: 239px;
+  }
+  .premiumDomen .premiumDomen-first,
+  .premiumDomen .premiumDomen-second {
+    width: 311px;
+    height: 227px;
+  }
+  .premiumDomen .premiumDomen-third {
+    width: 311px;
+  }
+  .premiumDomen .premiumDomen-input {
+    width: 249px;
+    padding: 2px 25px;
+    padding-right: 6px;
+  }
+  .premiumDomen .premiumDomen-blok .premiumDomen-input {
+    width: 109px;
+    padding-right: 5px;
+  }
+  .premiumDomen .premiumDomen-headers {
+    font-size: 15px;
+  }
+  .premiumDomen .premiumDomen-span {
+    padding: 13px 12px;
+    margin-left: 15px;
+  }
+  .premiumDomen .premiumDomen-blok {
+    justify-content: flex-start;
+  }
+  .premiumDomen .premiumDomen-span label {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .premiumDomen .premiumDomen-button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 98px;
+    height: 28px;
+  }
+  body .main .settings,
+  .special .special-color,
+  .special .custom-style {
+    width: 280px;
+  }
+  .special .special-color,
+  .special .custom-style {
+    /* margin-left: 60px; */
+    margin-left: 0;
+    width: 300px;
+  }
+  .special .special-blok {
+    flex-wrap: wrap;
+  }
+  .special .special-box {
+    width: 200px;
+  }
+  .special-font .special-select {
+    width: 150px;
+  }
+  .custom-style .custom-button {
+    margin-left: 0;
+  }
+  .main .settings {
+    margin: 0;
+  }
+
+  body .special {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  body .CodeMirror-scroll {
+    width: 280px;
+  }
+  body .special-blok,
+  body .custom-style {
+    width: 280px;
+  }
+  .special-font .special-select {
+    width: 232px;
+    height: 39px;
+  }
+  body .color-item {
+    width: 45%;
+  }
+  body .color-label {
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  body .color-list,
+  .special-font {
+    padding: 10px 7px;
+  }
+  body .color-item div {
+    width: 121px;
+  }
+  .special .special-box {
+    width: 259px;
+  }
+  .special .special-box {
+    width: 265px;
+    margin-left: 0;
+  }
+
+  body .button-list {
+    flex-wrap: wrap;
+  }
+  body .button-item {
+    width: 45%;
+    margin: 15px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .special .special-box {
+    height: 385px;
+    width: 283px;
+  }
+
+  .special .special-find {
+    width: 231px;
+  }
+  .special-find p {
+    font-size: 15px;
+  }
+  .special .custom-style,
+  .special .special-color {
+    width: 280px;
+    margin-left: 10px;
+  }
+  .custom-style .custom-button {
+    margin-left: 9px;
+  }
+  body .color-item div {
+    width: 116px;
+  }
+  .special .special-blok {
+    margin-left: 9px;
+  }
+  .color-list .color-item p {
+    margin-left: 0;
+  }
+  .special .special-font {
+    margin-bottom: 10px;
+  }
+
+  .search-list .search-img {
+    width: 60px;
+    height: 90px;
+  }
+  .search-modal .search-title {
+    font-size: 8px;
+    height: 17px;
+    padding: 2px 5px;
+  }
+  #modal .search-modal {
+    width: 300px;
+    min-height: 218px;
+  }
+
+  .admin-page .adminSocial-link {
+    width: 286px;
+  }
+  .admin-page .copy-img {
+    font-size: 20px;
+  }
+  .premium-section .pre-subinfo {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  body .modal .swiper-backface-hidden .swiper-slide {
+    margin-right: 0 !important;
+    padding: 0 20px !important;
+    width: 25.12% !important;
+  }
+  body .premium-section {
+    height: 467px;
+  }
+
+  body .edit-footer .MuiTabs-flexContainer {
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-wrap: wrap !important;
+
+    width: 249px;
+    margin-left: -10px;
+  }
+  body .edit-footer header button {
+    width: 40% !important;
+    margin: 0;
+  }
+  .edit-main .edit-footer .css-1ujykiq-MuiButtonBase-root-MuiTab-root {
+    width: 40% !important;
+  }
+  .edit-footer .add-cancel,
+  .edit-footer .add-create {
+    width: 85px;
+  }
+  body .edit-footer .css-jpln7h-MuiTabs-scroller {
+    max-width: 256px !important;
+  }
+  body .edit-main .edit-footer .css-1ujykiq-MuiButtonBase-root-MuiTab-root {
+    min-height: 20px;
+    padding: 0;
+    font-size: 11px;
+  }
+  .edit-main .edit-footer .edit-add {
+    height: 43px;
+  }
+  .add-footer {
+    width: 249px;
+  }
+  .add-footer .add-cancel,
+  .add-footer .add-create {
+    padding: 5px 4px;
+  }
+  .edit-footer .css-1ujnqem-MuiTabs-root {
+    width: 260px;
+  }
+  .edit-footer .schedule-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 234px;
+    margin: 12px 0;
+    flex-direction: column;
+  }
+
+  .edit-footer .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    margin: 18px 0;
+  }
+  .edit-main .edit-footer .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 175px;
+  }
+
+  .edit-footer .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    height: 41px;
+    font-size: 15px;
+    border: 1.5px solid #575dfb;
+    border-radius: 6px;
+  }
+  .edit-footer .schedule-top {
+    margin-bottom: 3px;
+    padding-left: 9px;
+  }
+  .edit-footer .MuiAccordionDetails-root {
+    padding: 10px 8px;
+    padding-left: 8px;
+    /* border: 2px solid red; */
+  }
+  .edit-main .edit-footer .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    height: 39px;
+    border-radius: 3px;
+  }
+
+  .edit-footer .schedule-footers {
+    margin: 0;
+    padding: 0;
+    width: 239px;
+  }
+
+  .edit-footer .animation-select {
+    width: 198px;
+    height: 38px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  .edit-footer .animation-btn {
+    width: 199px;
+    height: 38px;
+    background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+    border-radius: 6px;
+  }
+  .edit-footer .thumbnail-form {
+    margin-left: 0;
+  }
+  .edit-footer .thumbnail-form img {
+    position: absolute;
+    top: 0%;
+    left: 22%;
+  }
+  .thumbnail-form .add-footer {
+    width: 240px;
+  }
+
+  .edit-footer .redirect-title {
+    margin-top: 9px;
+  }
+
+  .main-form .main-input {
+    padding-left: 13px !important;
+  }
+  .main-right {
+    align-items: normal !important;
+  }
+
+  .mains-admin .css-yd0acu-MuiPaper-root {
+    background-color: dodgerblue;
+  }
+
+  .main-name {
+    width: 235px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .exit-modal {
+    width: 300px;
+  }
+  .exit-header p {
+    width: 298px;
+    height: 72px;
+    text-align: center;
+    font-family: "Clarika Geometric";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+  }
+  .exit-footer {
+    margin-top: 25px;
+    display: flex;
+  }
+  .edit-plus {
+    font-size: 13px !important;
+    width: 21px !important;
+    height: 21px !important;
+  }
+  .main .analytic-link {
+    padding: 0;
+    border: none;
+  }
+}

@@ -1,0 +1,11 @@
+.user{
+    margin: 50px 0;
+}
+
+.user__img{
+    width: 150px;
+}
+
+.user__imgs{
+    text-align: center;
+}

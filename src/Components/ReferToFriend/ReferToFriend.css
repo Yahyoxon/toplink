@@ -1,0 +1,208 @@
+.refer-top{
+ 
+
+font-family: 'Clarika Geometric';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+width: 765px;
+height: 52px;
+padding: 0 5px ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+
+background: linear-gradient(180deg, #673AB7 0%, #512DA8 100%);
+border-radius: 16px;
+color: #FFFFFF;
+}
+.refer{
+    margin-left: 60px;
+}
+.refer-medium{
+    width: 765px;
+height: 160px;
+ margin: 30px 0;
+
+border: 1px solid rgba(0, 0, 0, 0.45);
+border-radius: 16px;
+padding: 10px 25px;
+}
+.refer-title{
+    font-family: 'Clarika Geometric';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+ 
+ 
+color: #01384D;
+
+}
+.refer-input{
+    width: 497px;
+height: 50px;
+ 
+padding-left: 30px;
+background: #FDFDFF;
+outline: #512DA8;
+border: 1px solid #E5ECFC;
+border-radius: 10px;
+padding-right: 153px;
+
+}
+.refer-form{
+    margin-top: 30px;
+    position: relative;
+}
+.refer-btn{
+    font-family: 'Clarika Geometric';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+position: absolute;
+top: 8%;
+left: 51.5%;
+
+color: #FFFFFF;
+/* Primary */
+border: none;
+padding: 5px 20px;
+background: linear-gradient(180deg, #673AB7 0%, #512DA8 100%);
+border-radius: 10px;
+}
+
+.refer-bottom{
+    width: 765px;
+height: 220px;
+ 
+border: 1px solid rgba(0, 0, 0, 0.45);
+border-radius: 16px;
+}
+.refer-box{
+    
+font-family: 'Clarika Geometric';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+
+/* Gray 1 */
+
+color: #01384D;
+padding: 8px 15px;
+width: 300px;
+}
+.refer-left{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.refer-name{
+    
+font-family: 'Clarika Geometric';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Gray 1 */
+
+color: #01384D;
+
+text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.refer-time{
+    
+font-family: 'Clarika Geometric';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Gray 1 */
+
+color: #01384D;
+
+text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.refer-state{
+    
+font-family: 'Clarika Geometric';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+
+/* Gray 1 */
+
+color: #01384D;
+padding: 6px 15px;
+background: #E5ECFC;
+border-radius: 20px;
+}
+.refer-right, .refer-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.refer-right{
+    width: 290px;
+}
+
+.refer-box{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+    padding: 8px 25px;
+    width: 100%;
+}
+.refer-item{
+    padding: 12px 25px;
+    margin: 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+}
+.refer-item:nth-child(2){
+    border-bottom: none;
+}
+.refer-items{
+    margin: 0;
+    background: #E5ECFC;
+}
+.refer-box1, .refer-time{
+     
+    text-align: left;
+    width: 85px;
+}
+.refer-box2, .refer-state{
+    width: 105px;
+}
+.refer-name{
+    margin-left: 10px;
+    font-family: 'Clarika Geometric';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Gray 1 */
+
+color: #01384D;
+
+text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+}

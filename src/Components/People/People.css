@@ -1,0 +1,47 @@
+.people {
+    padding: 20px 0;
+}
+
+.people .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 52px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
+
+    width: 510px;
+    height: 53px;
+    color: #182F43;
+
+}
+
+.people-text {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
+    width: 535px;
+    height: 73px;
+    color: #182F43;
+}
+
+.people-left {
+    width: 55%;
+
+}
+
+.people-right {
+    width: 45%;
+}

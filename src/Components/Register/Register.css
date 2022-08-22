@@ -1,0 +1,146 @@
+.register-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.25px;
+  color: #673ab7;
+  text-align: start;
+}
+
+.register-text {
+  width: 360px;
+  height: 48px;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  overflow: hidden;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.011em;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.register .container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: start;
+  width: 380px;
+  /* margin-top: -130px; */
+}
+
+/* .register {
+    padding: 90px 0;
+    padding-bottom: 97.5px;
+} */
+
+.register-box {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.register-label {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.register-icon {
+  width: 17px;
+  height: 17px;
+}
+
+.register-input,
+.register .react-tel-input .form-control {
+  border-radius: 10px;
+  border: 2px solid #673ab7;
+  padding: 10px 15px;
+  padding-left: 40px;
+  outline: none;
+  width: 343px;
+  height: 40px;
+}
+.container-bottom .register-input {
+  padding-left: 14px;
+}
+.register .react-tel-input .flag-dropdown {
+  background-color: transparent;
+  border: none;
+}
+
+.react-tel-input .flag-dropdown.open {
+  width: 17px;
+  height: 17px;
+  top: 10px;
+  left: 2px;
+}
+
+.register-box span {
+  position: relative;
+}
+
+.register-icon {
+  position: absolute;
+  top: 25%;
+  left: 4%;
+}
+
+.register-error {
+  color: red;
+}
+
+.register-btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border-radius: 10px;
+  letter-spacing: -0.011em;
+  border: 2px solid #673ab7;
+  color: #ffffff;
+  cursor: pointer;
+
+  width: 343px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.register-blok {
+  display: flex;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.register-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: -0.011em;
+
+  color: #000000;
+}
+
+.register-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.011em;
+  text-decoration-line: underline;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-left: 15px;
+}
