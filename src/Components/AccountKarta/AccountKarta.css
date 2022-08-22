@@ -1,174 +1,164 @@
-.accountKarta{
-    margin-left: 45px;
+.accountKarta {
+  margin-left: 45px;
 }
-.accountKarta-btn:nth-child(1){
-    background: linear-gradient(180deg, #673AB7 0%, #512DA8 100%);
-border-radius: 50px;
-font-family: 'Clarika Geometric';
-font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 22px;
- 
-text-align: center;
+.accountKarta-btn:nth-child(1) {
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border-radius: 50px;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
 
-color: #FFFFFF;
-padding: 5px 20px;
-border: none;
+  text-align: center;
+
+  color: #ffffff;
+  padding: 5px 20px;
+  border: none;
 }
-.accountKarta-btn:nth-child(2){
- border-radius: 50px;
-font-family: 'Clarika Geometric';
-font-style: normal;
-font-weight: 900;
-font-size: 18px;
-line-height: 22px;
- 
-text-align: center;
-background-color: white;
-color: black;
-padding: 5px 20px;
-border: none;
+.accountKarta-btn:nth-child(2) {
+  border-radius: 50px;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 5px 20px;
+  border: none;
 }
-.accountKarta-top{
-    background-color: white;
- 
-    /* margin-left: 25px; */
+.accountKarta-top {
+  background-color: white;
+
+  /* margin-left: 25px; */
+  width: 100%;
+  margin-top: 5px;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+}
+.accountKarta-first {
+  width: 705px;
+  height: 315px;
+
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 10px;
+}
+
+.accountKarta-top {
+  display: flex;
+  padding: 15px 30px;
+}
+.accountKarta-headers {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+  padding: 10px 30px;
+  /* Gray 1 */
+
+  color: #01384d;
+}
+.accountKarta-span {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.accountKarta-form {
+  padding: 15px 30px;
+}
+.accountKarta-span label {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  /* Gray 1 */
+
+  color: #01384d;
+  margin-bottom: 5px;
+}
+.accountKarta-input {
+  border: 1.5px solid #575dfb;
+  border-radius: 10px;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: -0.011em;
+
+  /* Gray 1 */
+  padding: 8px 25px;
+  color: #01384d;
+  width: 635px;
+}
+.accountKarta-span .form-control {
+  border: 1.5px solid #575dfb;
+  border-radius: 10px;
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: -0.011em;
+
+  width: 635px;
+  padding-left: 45px !important;
+  padding: 8px 25px;
+  color: #01384d;
+}
+.accountKarta-button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 105px;
+  height: 40px;
+  /* White  Main */
+  margin-left: auto;
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(180deg, #673ab7 0%, #512da8 100%);
+  border-radius: 8px;
+}
+
+.accountKarta-first:nth-child(2) {
+  height: 300px;
+  margin-top: 25px;
+}
+.accountKarta-footers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.accountKarta-button {
+  margin-left: 0;
+}
+
+@media (max-width: 420px) {
+  .container {
     width: 100%;
-    margin-top: 5px;
-    padding: 20px ;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
-   
-}
-.accountKarta-first{
-    width: 705px;
-height: 315px;
- 
-
-border: 1px solid rgba(0, 0, 0, 0.45);
- border-radius: 10px;
- 
-}
-
-.accountKarta-top{
-    display: flex;
-    padding: 15px 30px ;
-    
-}
-.accountKarta-headers{
-    font-family: 'Clarika Geometric';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-border-bottom: 1px solid rgba(0, 0, 0, 0.45);
-padding: 10px 30px;
-/* Gray 1 */
-
-color: #01384D;
-
-}
-.accountKarta-span{
-    display: flex;
-    flex-direction: column;
- margin: 15px 0;
-}
-.accountKarta-form{
-    padding: 15px 30px ;
-
-}
-.accountKarta-span label{
-    font-family: 'Clarika Geometric';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-display: flex;
-align-items: center;
-
-/* Gray 1 */
-
-color: #01384D;
-margin-bottom: 5px;
-}
-.accountKarta-input{
-    
-border: 1.5px solid #575DFB;
-border-radius: 10px;
-font-family: 'Clarika Geometric';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
- 
-letter-spacing: -0.011em;
-
-/* Gray 1 */
-padding: 8px 25px;
-color: #01384D;
-width: 635px;
-
-}
-.accountKarta-span .form-control{
-    border: 1.5px solid #575DFB;
-border-radius: 10px;
-font-family: 'Clarika Geometric';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
- 
-letter-spacing: -0.011em;
-
-width: 635px;
-padding-left: 45px !important;
-padding: 8px 25px;
-color: #01384D;
-}
-.accountKarta-button{
-    font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-width: 105px;
-height: 40px;
-/* White / Main */
-margin-left: auto;
-border: none;
-color: #FFFFFF;
-background: linear-gradient(180deg, #673AB7 0%, #512DA8 100%);
-border-radius: 8px;
-}
- 
-.accountKarta-first:nth-child(2){
-    height: 300px;
-    margin-top: 25px;
- 
-}
-.accountKarta-footers{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-}
-.accountKarta-button{
+    padding: 0 15px;
+  }
+  .accountKarta-first {
+    width: 286px;
+  }
+  .accountKarta {
     margin-left: 0;
-
-}
-
-@media(max-width:420px) {
-    .container{
-        width: 100%;
-        padding: 0 15px;
-     }
-    .accountKarta-first {
-        width: 286px;}
-        .accountKarta{
-            margin-left: 0;
-        }
-        .accountKarta-input {
-            width: 230px;
-        }
-    
+  }
+  .accountKarta-input {
+    width: 230px;
+  }
 }

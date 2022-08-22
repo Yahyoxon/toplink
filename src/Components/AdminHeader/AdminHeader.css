@@ -10,7 +10,7 @@
   border-bottom: 0.5px solid #abbac3;
 }
 
-.admin__header-active{
+.admin__header-active {
   color: red;
 }
 
@@ -49,7 +49,7 @@
   text-decoration-style: solid;
 }
 
-.admin-menu-close{
+.admin-menu-close {
   width: 30px;
   height: 30px;
 }
@@ -152,13 +152,9 @@
   border-radius: 20px;
 }
 
-.dashboard__link-active{
-  color: #512DA8;
+.dashboard__link-active {
+  color: #512da8;
 }
-
-/* .admin-close-menu {
-  transform: translateX(180px);
-} */
 
 .admin-header-modal {
   display: block;
@@ -224,37 +220,31 @@ body .css-xqhexu-MuiPaper-root-MuiAppBar-root {
 }
 
 @media (max-width: 720px) {
-    
-    .container{
-        width: 600px;
-    }
+  .container {
+    width: 600px;
+  }
 
-    .admin-header-list,
-    .admin-logo {
-      display: none;
-    }
-
+  .admin-header-list,
+  .admin-logo {
+    display: none;
+  }
 }
 
-@media (max-width:620px) {
-  
-  .container{
+@media (max-width: 620px) {
+  .container {
     width: 500px;
   }
 
-  .admin-header{
+  .admin-header {
     justify-content: space-around;
   }
 }
 
-@media (max-width:520px) {
-  
-  .container{
+@media (max-width: 520px) {
+  .container {
     width: 400px;
   }
 }
-
-
 
 @media (max-width: 420px) {
   .container {
@@ -264,7 +254,6 @@ body .css-xqhexu-MuiPaper-root-MuiAppBar-root {
     left: 90%;
     top: 0;
   }
- 
 }
 
 .MuiTabs-indicator {
